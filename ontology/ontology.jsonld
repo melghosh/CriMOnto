@@ -6,26 +6,26 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Immunity_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid10",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid102",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Base"
+      "@id" : "https://w3id.org/crimonto/crimonto#Base"
     }, {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Gain"
+      "@id" : "https://w3id.org/crimonto/crimonto#Gain"
     }, {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Political"
+      "@id" : "https://w3id.org/crimonto/crimonto#Political"
     } ]
   } ]
 }, {
@@ -33,18 +33,18 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Contravention"
+      "@id" : "https://w3id.org/crimonto/crimonto#Contravention"
     }, {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Felony"
+      "@id" : "https://w3id.org/crimonto/crimonto#Felony"
     }, {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Misdemeanor"
+      "@id" : "https://w3id.org/crimonto/crimonto#Misdemeanor"
     } ]
   } ]
 }, {
   "@id" : "_:genid11",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Immunity_to_Punishment"
+    "@id" : "https://w3id.org/crimonto/crimonto#Immunity_to_Punishment"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid12"
@@ -58,11 +58,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Fault"
+      "@id" : "https://w3id.org/crimonto/crimonto#Fault"
     }, {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Loss_of_Awareness"
+      "@id" : "https://w3id.org/crimonto/crimonto#Loss_of_Awareness"
     }, {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Motive"
+      "@id" : "https://w3id.org/crimonto/crimonto#Motive"
     } ]
   } ]
 }, {
@@ -70,25 +70,25 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_FaultBased_Liability"
+      "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"
     }, {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Liability"
+      "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Liability"
     }, {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty"
+      "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"
     }, {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty_Commutation"
+      "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"
     } ]
   } ]
 }, {
   "@id" : "_:genid12",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid13",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Disability_to_Punishment"
+    "@id" : "https://w3id.org/crimonto/crimonto#Disability_to_Punishment"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid14"
@@ -100,7 +100,7 @@
 }, {
   "@id" : "_:genid14",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid15",
@@ -109,12 +109,12 @@
     "@id" : "_:genid16"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"
   } ]
 }, {
   "@id" : "_:genid16",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid17",
@@ -123,12 +123,12 @@
     "@id" : "_:genid18"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"
   } ]
 }, {
   "@id" : "_:genid18",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid19",
@@ -137,7 +137,7 @@
     "@id" : "_:genid20"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty_Commutation"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"
   } ]
 }, {
   "@id" : "_:genid2",
@@ -147,21 +147,21 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Disability_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid20",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid21",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid22"
@@ -173,13 +173,13 @@
 }, {
   "@id" : "_:genid22",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid23",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_Penalty"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid24"
@@ -191,13 +191,13 @@
 }, {
   "@id" : "_:genid24",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid25",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_Replace_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid26"
@@ -209,13 +209,13 @@
 }, {
   "@id" : "_:genid26",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid27",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerTo_Impose_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid28"
@@ -227,13 +227,13 @@
 }, {
   "@id" : "_:genid28",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid29",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Power_to_Impose_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid30"
@@ -250,21 +250,21 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Disability_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid30",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid31",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Power_to_Replace_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid32"
@@ -276,13 +276,13 @@
 }, {
   "@id" : "_:genid32",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid33",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Immunity_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid34"
@@ -294,7 +294,7 @@
 }, {
   "@id" : "_:genid34",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid35",
@@ -304,16 +304,16 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Motive_Quality"
+    "@id" : "https://w3id.org/crimonto/crimonto#Motive_Quality"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid36",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid37"
@@ -325,13 +325,13 @@
 }, {
   "@id" : "_:genid37",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid38",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Motive"
+    "@id" : "https://w3id.org/crimonto/crimonto#Motive"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid39"
@@ -343,7 +343,7 @@
 }, {
   "@id" : "_:genid39",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid4",
@@ -353,10 +353,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Immunity_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid40",
@@ -365,12 +365,12 @@
     "@id" : "_:genid41"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Exemption_from_Punishment"
+    "@id" : "https://w3id.org/crimonto/crimonto#Exemption_from_Punishment"
   } ]
 }, {
   "@id" : "_:genid41",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid42",
@@ -380,16 +380,16 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Loss_of_Awareness"
+    "@id" : "https://w3id.org/crimonto/crimonto#Loss_of_Awareness"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid43",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Disability_to_Punishment"
+    "@id" : "https://w3id.org/crimonto/crimonto#Disability_to_Punishment"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid44"
@@ -401,13 +401,13 @@
 }, {
   "@id" : "_:genid44",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid45",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Immunity_to_Punishment"
+    "@id" : "https://w3id.org/crimonto/crimonto#Immunity_to_Punishment"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid46"
@@ -419,7 +419,7 @@
 }, {
   "@id" : "_:genid46",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid47",
@@ -428,12 +428,12 @@
     "@id" : "_:genid48"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense_Relator"
   } ]
 }, {
   "@id" : "_:genid48",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid49",
@@ -442,13 +442,13 @@
     "@id" : "_:genid50"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Penalty_Relator"
   } ]
 }, {
   "@id" : "_:genid5",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid6"
@@ -460,7 +460,7 @@
 }, {
   "@id" : "_:genid50",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid51",
@@ -469,12 +469,12 @@
     "@id" : "_:genid52"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"
   } ]
 }, {
   "@id" : "_:genid52",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid53",
@@ -483,12 +483,12 @@
     "@id" : "_:genid54"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"
   } ]
 }, {
   "@id" : "_:genid54",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid55",
@@ -497,12 +497,12 @@
     "@id" : "_:genid56"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty_Commutation"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"
   } ]
 }, {
   "@id" : "_:genid56",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid57",
@@ -511,12 +511,12 @@
     "@id" : "_:genid58"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Responsibility_of_Unintentional_Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense"
   } ]
 }, {
   "@id" : "_:genid58",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid59",
@@ -526,15 +526,15 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Fault"
+    "@id" : "https://w3id.org/crimonto/crimonto#Fault"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid6",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid60",
@@ -544,16 +544,16 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Motive"
+    "@id" : "https://w3id.org/crimonto/crimonto#Motive"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid61",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerTo_Impose_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid62"
@@ -565,13 +565,13 @@
 }, {
   "@id" : "_:genid62",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid63",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Power_to_Impose_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid64"
@@ -583,13 +583,13 @@
 }, {
   "@id" : "_:genid64",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid65",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Power_to_Replace_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid66"
@@ -601,13 +601,13 @@
 }, {
   "@id" : "_:genid66",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid67",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid68"
@@ -619,13 +619,13 @@
 }, {
   "@id" : "_:genid68",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid69",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_Penalty"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid70"
@@ -642,21 +642,21 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Disability_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid70",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid71",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_Replace_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "_:genid72"
@@ -668,7 +668,7 @@
 }, {
   "@id" : "_:genid72",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid73",
@@ -678,10 +678,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid74",
@@ -691,10 +691,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid75",
@@ -704,10 +704,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid76",
@@ -717,10 +717,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid77",
@@ -730,10 +730,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid78",
@@ -743,10 +743,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid79",
@@ -756,10 +756,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid8",
@@ -769,10 +769,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Immunity_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid80",
@@ -782,10 +782,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid81",
@@ -795,10 +795,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid82",
@@ -808,10 +808,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid83",
@@ -821,10 +821,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid84",
@@ -834,10 +834,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid85",
@@ -847,10 +847,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid86",
@@ -860,10 +860,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid87",
@@ -873,10 +873,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#mediates"
+    "@id" : "https://w3id.org/crimonto/crimonto#mediates"
   } ]
 }, {
   "@id" : "_:genid88",
@@ -886,10 +886,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid89",
@@ -899,10 +899,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid9",
@@ -911,7 +911,7 @@
     "@id" : "_:genid10"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Exemption_from_Punishment"
+    "@id" : "https://w3id.org/crimonto/crimonto#Exemption_from_Punishment"
   } ]
 }, {
   "@id" : "_:genid90",
@@ -921,10 +921,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid91",
@@ -934,10 +934,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid92",
@@ -947,10 +947,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn"
+    "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn"
   } ]
 }, {
   "@id" : "_:genid93",
@@ -960,21 +960,21 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn"
+    "@id" : "https://w3id.org/crimonto/crimonto#inheresIn"
   } ]
 }, {
   "@id" : "_:genid94",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Absence_of_Responsibility"
+      "@id" : "https://w3id.org/crimonto/crimonto#Absence_of_Responsibility"
     }, {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Error"
+      "@id" : "https://w3id.org/crimonto/crimonto#Error"
     }, {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Force_Majeure"
+      "@id" : "https://w3id.org/crimonto/crimonto#Force_Majeure"
     } ]
   } ]
 }, {
@@ -982,11 +982,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Aggravating_Circumstances"
+      "@id" : "https://w3id.org/crimonto/crimonto#Aggravating_Circumstances"
     }, {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Extenuating_Circumstances"
+      "@id" : "https://w3id.org/crimonto/crimonto#Extenuating_Circumstances"
     }, {
-      "@id" : "https://w3id.org/CriMOnto/crimonto#Impediments_to_Prosecution"
+      "@id" : "https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution"
     } ]
   } ]
 }, {
@@ -1011,7 +1011,7 @@
   "@id" : "http://purl.org/dc/terms/language",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto",
+  "@id" : "https://w3id.org/crimonto/crimonto",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
     "@value" : "Mirna El Ghosh"
@@ -1047,473 +1047,473 @@
     "@value" : "v1.0 (domain layer)"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Absence_of_Responsibility",
+  "@id" : "https://w3id.org/crimonto/crimonto#Absence_of_Responsibility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Absence_of_Responsibility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Impediments_to_Prosecution"
+    "@id" : "https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Accessory",
+  "@id" : "https://w3id.org/crimonto/crimonto#Accessory",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Accessory"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Accomplice",
+  "@id" : "https://w3id.org/crimonto/crimonto#Accomplice",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Accomplice"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Aggravating_Circumstances",
+  "@id" : "https://w3id.org/crimonto/crimonto#Aggravating_Circumstances",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Aggravating_Circumstances"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Legally_Defined_Circumstance"
+    "@id" : "https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Base",
+  "@id" : "https://w3id.org/crimonto/crimonto#Base",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SubKind"
+    "@id" : "https://w3id.org/crimonto/crimonto#SubKind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Base"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Motive"
+    "@id" : "https://w3id.org/crimonto/crimonto#Motive"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Category",
+  "@id" : "https://w3id.org/crimonto/crimonto#Category",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Compulsion_and_Moral_Duress",
+  "@id" : "https://w3id.org/crimonto/crimonto#Compulsion_and_Moral_Duress",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Compulsion_and_Moral_Duress"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Force_Majeure"
+    "@id" : "https://w3id.org/crimonto/crimonto#Force_Majeure"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#State_of_Necessity"
+    "@id" : "https://w3id.org/crimonto/crimonto#State_of_Necessity"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Contravention",
+  "@id" : "https://w3id.org/crimonto/crimonto#Contravention",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Contravention"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Court",
+  "@id" : "https://w3id.org/crimonto/crimonto#Court",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SubKind"
+    "@id" : "https://w3id.org/crimonto/crimonto#SubKind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Court"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLAgentive_Legal_Institution"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLAgentive_Legal_Institution"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Criminal_Act",
+  "@id" : "https://w3id.org/crimonto/crimonto#Criminal_Act",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Criminal_Act"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOAction_Contribution"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOAction_Contribution"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judicial_Act"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judicial_Act"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Criminal_Conviction",
+  "@id" : "https://w3id.org/crimonto/crimonto#Criminal_Conviction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Criminal_Conviction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judicial_Act"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judicial_Act"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Criminal_Court",
+  "@id" : "https://w3id.org/crimonto/crimonto#Criminal_Court",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SubKind"
+    "@id" : "https://w3id.org/crimonto/crimonto#SubKind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Criminal_Court"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Court"
+    "@id" : "https://w3id.org/crimonto/crimonto#Court"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Criminal_Law_Promulgation",
+  "@id" : "https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Criminal_Law_Promulgation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Event"
+    "@id" : "https://w3id.org/crimonto/crimonto#Event"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Disability_to_Punishment",
+  "@id" : "https://w3id.org/crimonto/crimonto#Disability_to_Punishment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Disability_to_Punishment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#IntrinsicMode"
+    "@id" : "https://w3id.org/crimonto/crimonto#IntrinsicMode"
   }, {
     "@id" : "_:genid1"
   }, {
     "@id" : "_:genid2"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Dishonorable",
+  "@id" : "https://w3id.org/crimonto/crimonto#Dishonorable",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SubKind"
+    "@id" : "https://w3id.org/crimonto/crimonto#SubKind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Dishonorable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Motive_Quality"
+    "@id" : "https://w3id.org/crimonto/crimonto#Motive_Quality"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Honorable"
+    "@id" : "https://w3id.org/crimonto/crimonto#Honorable"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Error",
+  "@id" : "https://w3id.org/crimonto/crimonto#Error",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Error"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Impediments_to_Prosecution"
+    "@id" : "https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Error_of_Fact",
+  "@id" : "https://w3id.org/crimonto/crimonto#Error_of_Fact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Error_of_Fact"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Error"
+    "@id" : "https://w3id.org/crimonto/crimonto#Error"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Error_of_Law"
+    "@id" : "https://w3id.org/crimonto/crimonto#Error_of_Law"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Error_of_Law",
+  "@id" : "https://w3id.org/crimonto/crimonto#Error_of_Law",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Error_of_Law"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Error"
+    "@id" : "https://w3id.org/crimonto/crimonto#Error"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Event",
+  "@id" : "https://w3id.org/crimonto/crimonto#Event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#EventType",
+  "@id" : "https://w3id.org/crimonto/crimonto#EventType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Exemption_from_Punishment",
+  "@id" : "https://w3id.org/crimonto/crimonto#Exemption_from_Punishment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Exemption_from_Punishment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLDisabilityImmunity_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLDisabilityImmunity_Relator"
   }, {
     "@id" : "_:genid3"
   }, {
     "@id" : "_:genid4"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Extenuating_Circumstances",
+  "@id" : "https://w3id.org/crimonto/crimonto#Extenuating_Circumstances",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Extenuating_Circumstances"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Legally_Defined_Circumstance"
+    "@id" : "https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Fault",
+  "@id" : "https://w3id.org/crimonto/crimonto#Fault",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Fault"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOMental_Moment"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOMental_Moment"
   }, {
     "@id" : "_:genid5"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Felony",
+  "@id" : "https://w3id.org/crimonto/crimonto#Felony",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Felony"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Force_Majeure",
+  "@id" : "https://w3id.org/crimonto/crimonto#Force_Majeure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Force_Majeure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Impediments_to_Prosecution"
+    "@id" : "https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#FunctionalComplex",
+  "@id" : "https://w3id.org/crimonto/crimonto#FunctionalComplex",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Gain",
+  "@id" : "https://w3id.org/crimonto/crimonto#Gain",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SubKind"
+    "@id" : "https://w3id.org/crimonto/crimonto#SubKind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Gain"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Motive"
+    "@id" : "https://w3id.org/crimonto/crimonto#Motive"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Honorable",
+  "@id" : "https://w3id.org/crimonto/crimonto#Honorable",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SubKind"
+    "@id" : "https://w3id.org/crimonto/crimonto#SubKind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Honorable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Motive_Quality"
+    "@id" : "https://w3id.org/crimonto/crimonto#Motive_Quality"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Immunity_to_Punishment",
+  "@id" : "https://w3id.org/crimonto/crimonto#Immunity_to_Punishment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Immunity_to_Punishment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#IntrinsicMode"
+    "@id" : "https://w3id.org/crimonto/crimonto#IntrinsicMode"
   }, {
     "@id" : "_:genid7"
   }, {
     "@id" : "_:genid8"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Impediments_to_Prosecution",
+  "@id" : "https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Impediments_to_Prosecution"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Legally_Defined_Circumstance"
+    "@id" : "https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Insanity",
+  "@id" : "https://w3id.org/crimonto/crimonto#Insanity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Insanity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Absence_of_Responsibility"
+    "@id" : "https://w3id.org/crimonto/crimonto#Absence_of_Responsibility"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Intoxication_and_Drug_Addiction"
+    "@id" : "https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Instigator",
+  "@id" : "https://w3id.org/crimonto/crimonto#Instigator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Instigator"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Intentional_Offense",
+  "@id" : "https://w3id.org/crimonto/crimonto#Intentional_Offense",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Intentional_Offense"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Criminal_Act"
+    "@id" : "https://w3id.org/crimonto/crimonto#Criminal_Act"
   }, {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Unintentional_Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Unintentional_Offense"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Intoxication_and_Drug_Addiction",
+  "@id" : "https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Intoxication_and_Drug_Addiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Absence_of_Responsibility"
+    "@id" : "https://w3id.org/crimonto/crimonto#Absence_of_Responsibility"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#IntrinsicMode",
+  "@id" : "https://w3id.org/crimonto/crimonto#IntrinsicMode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Judge",
+  "@id" : "https://w3id.org/crimonto/crimonto#Judge",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Judge"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Legal_Professional"
+    "@id" : "https://w3id.org/crimonto/crimonto#Legal_Professional"
   }, {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Agent"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Disability_Holder",
+  "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Judge_as_Disability_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge"
   }, {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLDisability_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLDisability_Holder"
   }, {
     "@id" : "_:genid9"
   }, {
@@ -1522,19 +1522,19 @@
     "@id" : "_:genid13"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder",
+  "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Judge_as_Power_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge"
   }, {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLPower_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLPower_Holder"
   }, {
     "@id" : "_:genid15"
   }, {
@@ -1555,191 +1555,191 @@
     "@id" : "_:genid31"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Judicial_Act",
+  "@id" : "https://w3id.org/crimonto/crimonto#Judicial_Act",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Judicial_Act"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOAction_Contribution"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOAction_Contribution"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Kind",
+  "@id" : "https://w3id.org/crimonto/crimonto#Kind",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Law_Violation",
+  "@id" : "https://w3id.org/crimonto/crimonto#Law_Violation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Law_Violation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOAgent_Participation"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOAgent_Participation"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Law_Violator",
+  "@id" : "https://w3id.org/crimonto/crimonto#Law_Violator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Law_Violator"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Agent"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Legal_Professional",
+  "@id" : "https://w3id.org/crimonto/crimonto#Legal_Professional",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Legal_Professional"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Agent"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Legally_Defined_Circumstance",
+  "@id" : "https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Legally_Defined_Circumstance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOSituation"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOSituation"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Liability_Relator",
+  "@id" : "https://w3id.org/crimonto/crimonto#Liability_Relator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Liability_Relator"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Relator"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Loss_of_Awareness",
+  "@id" : "https://w3id.org/crimonto/crimonto#Loss_of_Awareness",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Loss_of_Awareness"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOMental_Moment"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOMental_Moment"
   }, {
     "@id" : "_:genid33"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType",
+  "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Mental_Deficiency",
+  "@id" : "https://w3id.org/crimonto/crimonto#Mental_Deficiency",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Mental_Deficiency"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Insanity"
+    "@id" : "https://w3id.org/crimonto/crimonto#Insanity"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Misdemeanor",
+  "@id" : "https://w3id.org/crimonto/crimonto#Misdemeanor",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Misdemeanor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Motive",
+  "@id" : "https://w3id.org/crimonto/crimonto#Motive",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Motive"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOMental_Moment"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOMental_Moment"
   }, {
     "@id" : "_:genid35"
   }, {
     "@id" : "_:genid36"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Motive_Quality",
+  "@id" : "https://w3id.org/crimonto/crimonto#Motive_Quality",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Motive_Quality"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Quality"
+    "@id" : "https://w3id.org/crimonto/crimonto#Quality"
   }, {
     "@id" : "_:genid38"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Offender",
+  "@id" : "https://w3id.org/crimonto/crimonto#Offender",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Offender"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Law_Violator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Law_Violator"
   }, {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Agent"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Immunity_Holder",
+  "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Offender_as_Immunity_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender"
   }, {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLImmunity_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLImmunity_Holder"
   }, {
     "@id" : "_:genid40"
   }, {
@@ -1750,19 +1750,19 @@
     "@id" : "_:genid45"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder",
+  "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender"
   }, {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLSubjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLSubjection_Holder"
   }, {
     "@id" : "_:genid47"
   }, {
@@ -1793,1127 +1793,1127 @@
     "@id" : "_:genid71"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Offense",
+  "@id" : "https://w3id.org/crimonto/crimonto#Offense",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Offense"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Law_Violation"
+    "@id" : "https://w3id.org/crimonto/crimonto#Law_Violation"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Offense_Relator",
+  "@id" : "https://w3id.org/crimonto/crimonto#Offense_Relator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Offense_Relator"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Relator"
   }, {
     "@id" : "_:genid73"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty",
+  "@id" : "https://w3id.org/crimonto/crimonto#Penalty",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Criminal_Conviction"
+    "@id" : "https://w3id.org/crimonto/crimonto#Criminal_Conviction"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty_Relator",
+  "@id" : "https://w3id.org/crimonto/crimonto#Penalty_Relator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Penalty_Relator"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Relator"
   }, {
     "@id" : "_:genid74"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Perpetrator",
+  "@id" : "https://w3id.org/crimonto/crimonto#Perpetrator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Perpetrator"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Political",
+  "@id" : "https://w3id.org/crimonto/crimonto#Political",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SubKind"
+    "@id" : "https://w3id.org/crimonto/crimonto#SubKind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Political"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Motive"
+    "@id" : "https://w3id.org/crimonto/crimonto#Motive"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_FaultBased_Liability",
+  "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Power-Subjection_to_Fault-Based_Liability"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLPowerSubjection_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator"
   }, {
     "@id" : "_:genid75"
   }, {
     "@id" : "_:genid76"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Liability",
+  "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Liability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Power-Subjection_to_Liability"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLPowerSubjection_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty",
+  "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Power-Subjection_to_Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLPowerSubjection_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator"
   }, {
     "@id" : "_:genid77"
   }, {
     "@id" : "_:genid78"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty_Commutation",
+  "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Power-Subjection_to_Penalty_Commutation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLPowerSubjection_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator"
   }, {
     "@id" : "_:genid79"
   }, {
     "@id" : "_:genid80"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#PowerTo_Impose_FaultBased_Liability",
+  "@id" : "https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Power-to_Impose_Fault-Based_Liability"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#IntrinsicMode"
+    "@id" : "https://w3id.org/crimonto/crimonto#IntrinsicMode"
   }, {
     "@id" : "_:genid81"
   }, {
     "@id" : "_:genid82"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Power_to_Impose_Penalty",
+  "@id" : "https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Power_to_Impose_Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#IntrinsicMode"
+    "@id" : "https://w3id.org/crimonto/crimonto#IntrinsicMode"
   }, {
     "@id" : "_:genid83"
   }, {
     "@id" : "_:genid84"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Power_to_Replace_Penalty",
+  "@id" : "https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Power_to_Replace_Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#IntrinsicMode"
+    "@id" : "https://w3id.org/crimonto/crimonto#IntrinsicMode"
   }, {
     "@id" : "_:genid85"
   }, {
     "@id" : "_:genid86"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Quality",
+  "@id" : "https://w3id.org/crimonto/crimonto#Quality",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Relator",
+  "@id" : "https://w3id.org/crimonto/crimonto#Relator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Responsibility_of_Unintentional_Offense",
+  "@id" : "https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Responsibility_of_Unintentional_Offense"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Relator"
   }, {
     "@id" : "_:genid87"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Role",
+  "@id" : "https://w3id.org/crimonto/crimonto#Role",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Situation",
+  "@id" : "https://w3id.org/crimonto/crimonto#Situation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType",
+  "@id" : "https://w3id.org/crimonto/crimonto#SituationType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#State_of_Necessity",
+  "@id" : "https://w3id.org/crimonto/crimonto#State_of_Necessity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "State_of_Necessity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Force_Majeure"
+    "@id" : "https://w3id.org/crimonto/crimonto#Force_Majeure"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#SubKind",
+  "@id" : "https://w3id.org/crimonto/crimonto#SubKind",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_FaultBased_Liability",
+  "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Subjection_to_Fault-Based_Liability"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#IntrinsicMode"
+    "@id" : "https://w3id.org/crimonto/crimonto#IntrinsicMode"
   }, {
     "@id" : "_:genid88"
   }, {
     "@id" : "_:genid89"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_Penalty",
+  "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_Penalty",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Subjection_to_Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#IntrinsicMode"
+    "@id" : "https://w3id.org/crimonto/crimonto#IntrinsicMode"
   }, {
     "@id" : "_:genid90"
   }, {
     "@id" : "_:genid91"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_Replace_Penalty",
+  "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Subjection_to_Replace_Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#IntrinsicMode"
+    "@id" : "https://w3id.org/crimonto/crimonto#IntrinsicMode"
   }, {
     "@id" : "_:genid92"
   }, {
     "@id" : "_:genid93"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#UFOAction_Contribution",
+  "@id" : "https://w3id.org/crimonto/crimonto#UFOAction_Contribution",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UFO::Action_Contribution"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOAgent_Participation"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOAgent_Participation"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#UFOAgent_Participation",
+  "@id" : "https://w3id.org/crimonto/crimonto#UFOAgent_Participation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UFO::Agent_Participation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Event"
+    "@id" : "https://w3id.org/crimonto/crimonto#Event"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLAgentive_Legal_Institution",
+  "@id" : "https://w3id.org/crimonto/crimonto#UFOLAgentive_Legal_Institution",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SubKind"
+    "@id" : "https://w3id.org/crimonto/crimonto#SubKind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UFO-L::Agentive_Legal_Institution"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Agent"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLDisabilityImmunity_Relator",
+  "@id" : "https://w3id.org/crimonto/crimonto#UFOLDisabilityImmunity_Relator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Category"
+    "@id" : "https://w3id.org/crimonto/crimonto#Category"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UFO-L::Disability-Immunity_Relator"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Relator"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLDisability_Holder",
+  "@id" : "https://w3id.org/crimonto/crimonto#UFOLDisability_Holder",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UFO-L::Disability_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Agent"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLImmunity_Holder",
+  "@id" : "https://w3id.org/crimonto/crimonto#UFOLImmunity_Holder",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UFO-L::Immunity_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Agent"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Agent",
+  "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Agent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UFO-L::Legal_Agent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#FunctionalComplex"
+    "@id" : "https://w3id.org/crimonto/crimonto#FunctionalComplex"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Relator",
+  "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Relator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Category"
+    "@id" : "https://w3id.org/crimonto/crimonto#Category"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UFO-L::Legal_Relator"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Relator"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLPowerSubjection_Relator",
+  "@id" : "https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Category"
+    "@id" : "https://w3id.org/crimonto/crimonto#Category"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UFO-L::Power-Subjection_Relator"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Relator"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLPower_Holder",
+  "@id" : "https://w3id.org/crimonto/crimonto#UFOLPower_Holder",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UFO-L::Power_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Agent"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLSubjection_Holder",
+  "@id" : "https://w3id.org/crimonto/crimonto#UFOLSubjection_Holder",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Role"
+    "@id" : "https://w3id.org/crimonto/crimonto#Role"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UFO-L::Subjection_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLLegal_Agent"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#UFOMental_Moment",
+  "@id" : "https://w3id.org/crimonto/crimonto#UFOMental_Moment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Category"
+    "@id" : "https://w3id.org/crimonto/crimonto#Category"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UFO::Mental_Moment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#IntrinsicMode"
+    "@id" : "https://w3id.org/crimonto/crimonto#IntrinsicMode"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#UFOSituation",
+  "@id" : "https://w3id.org/crimonto/crimonto#UFOSituation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#SituationType"
+    "@id" : "https://w3id.org/crimonto/crimonto#SituationType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UFO::Situation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Situation"
+    "@id" : "https://w3id.org/crimonto/crimonto#Situation"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Unintentional_Offense",
+  "@id" : "https://w3id.org/crimonto/crimonto#Unintentional_Offense",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#EventType"
+    "@id" : "https://w3id.org/crimonto/crimonto#EventType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Unintentional_Offense"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#Unintentional_Offense_Relator",
+  "@id" : "https://w3id.org/crimonto/crimonto#Unintentional_Offense_Relator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Kind"
+    "@id" : "https://w3id.org/crimonto/crimonto#Kind"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Unintentional_Offense_Relator"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Relator"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#causedBy",
+  "@id" : "https://w3id.org/crimonto/crimonto#causedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Loss_of_Awareness"
+    "@id" : "https://w3id.org/crimonto/crimonto#Loss_of_Awareness"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "caused by"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Intoxication_and_Drug_Addiction"
+    "@id" : "https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#commits",
+  "@id" : "https://w3id.org/crimonto/crimonto#commits",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "commits"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#commits_1",
+  "@id" : "https://w3id.org/crimonto/crimonto#commits_1",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Immunity_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "commits"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#committedUnder",
+  "@id" : "https://w3id.org/crimonto/crimonto#committedUnder",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "committed under"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Intoxication_and_Drug_Addiction"
+    "@id" : "https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#correlates",
+  "@id" : "https://w3id.org/crimonto/crimonto#correlates",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Disability_to_Punishment"
+    "@id" : "https://w3id.org/crimonto/crimonto#Disability_to_Punishment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "correlates"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Immunity_to_Punishment"
+    "@id" : "https://w3id.org/crimonto/crimonto#Immunity_to_Punishment"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#correlates_1",
+  "@id" : "https://w3id.org/crimonto/crimonto#correlates_1",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Power_to_Impose_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "correlates"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_Penalty"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#correlates_2",
+  "@id" : "https://w3id.org/crimonto/crimonto#correlates_2",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Power_to_Replace_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "correlates"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_Replace_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#correlates_3",
+  "@id" : "https://w3id.org/crimonto/crimonto#correlates_3",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerTo_Impose_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "correlates"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#courtHasJudge",
+  "@id" : "https://w3id.org/crimonto/crimonto#courtHasJudge",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Court"
+    "@id" : "https://w3id.org/crimonto/crimonto#Court"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#creates",
+  "@id" : "https://w3id.org/crimonto/crimonto#creates",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "creates"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Penalty_Relator"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#creates_1",
+  "@id" : "https://w3id.org/crimonto/crimonto#creates_1",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "creates"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Responsibility_of_Unintentional_Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#dependsOn",
+  "@id" : "https://w3id.org/crimonto/crimonto#dependsOn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "depends on"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Criminal_Law_Promulgation"
+    "@id" : "https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#dependsOn_1",
+  "@id" : "https://w3id.org/crimonto/crimonto#dependsOn_1",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Responsibility_of_Unintentional_Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "depends on"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Unintentional_Offense_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Unintentional_Offense_Relator"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#dependsOn_2",
+  "@id" : "https://w3id.org/crimonto/crimonto#dependsOn_2",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Penalty_Relator"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "depends on"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense_Relator"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#exemptionFromPunishmentHasDisabilityToPunishment",
+  "@id" : "https://w3id.org/crimonto/crimonto#exemptionFromPunishmentHasDisabilityToPunishment",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Exemption_from_Punishment"
+    "@id" : "https://w3id.org/crimonto/crimonto#Exemption_from_Punishment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Disability_to_Punishment"
+    "@id" : "https://w3id.org/crimonto/crimonto#Disability_to_Punishment"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#exemptionFromPunishmentHasImmunityToPunishment",
+  "@id" : "https://w3id.org/crimonto/crimonto#exemptionFromPunishmentHasImmunityToPunishment",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Exemption_from_Punishment"
+    "@id" : "https://w3id.org/crimonto/crimonto#Exemption_from_Punishment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Immunity_to_Punishment"
+    "@id" : "https://w3id.org/crimonto/crimonto#Immunity_to_Punishment"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#externallyDependsOn",
+  "@id" : "https://w3id.org/crimonto/crimonto#externallyDependsOn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#generates",
+  "@id" : "https://w3id.org/crimonto/crimonto#generates",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "generates"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Penalty_Relator"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#generates_1",
+  "@id" : "https://w3id.org/crimonto/crimonto#generates_1",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "generates"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense_Relator"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#grounds",
+  "@id" : "https://w3id.org/crimonto/crimonto#grounds",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Criminal_Law_Promulgation"
+    "@id" : "https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "grounds"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#grounds_1",
+  "@id" : "https://w3id.org/crimonto/crimonto#grounds_1",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Criminal_Law_Promulgation"
+    "@id" : "https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "grounds"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#grounds_2",
+  "@id" : "https://w3id.org/crimonto/crimonto#grounds_2",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Criminal_Law_Promulgation"
+    "@id" : "https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "grounds"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty_Commutation"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#grounds_3",
+  "@id" : "https://w3id.org/crimonto/crimonto#grounds_3",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Criminal_Law_Promulgation"
+    "@id" : "https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "grounds"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Responsibility_of_Unintentional_Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#grounds_4",
+  "@id" : "https://w3id.org/crimonto/crimonto#grounds_4",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Criminal_Law_Promulgation"
+    "@id" : "https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "grounds"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Exemption_from_Punishment"
+    "@id" : "https://w3id.org/crimonto/crimonto#Exemption_from_Punishment"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#hasALegalPowerAgainst",
+  "@id" : "https://w3id.org/crimonto/crimonto#hasALegalPowerAgainst",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLPower_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLPower_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has a legal power against"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLSubjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLSubjection_Holder"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#hasAPowerToImposeAPenaltyAgainst",
+  "@id" : "https://w3id.org/crimonto/crimonto#hasAPowerToImposeAPenaltyAgainst",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has a power to impose a penalty against"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#hasAPowerToImposeAResponsibilityOfAnUnintentionalOffenseAgainst",
+  "@id" : "https://w3id.org/crimonto/crimonto#hasAPowerToImposeAResponsibilityOfAnUnintentionalOffenseAgainst",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has a power to impose a responsibility of an unintentional offense against"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#hasAPowerToSubstituteOrModifyAPenaltyAgainst",
+  "@id" : "https://w3id.org/crimonto/crimonto#hasAPowerToSubstituteOrModifyAPenaltyAgainst",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has a power to substitute or modify a penalty against"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#hasNoPowerAgainst",
+  "@id" : "https://w3id.org/crimonto/crimonto#hasNoPowerAgainst",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLDisability_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLDisability_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has no power against"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#UFOLImmunity_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#UFOLImmunity_Holder"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#hasNoPowerToProsecutionAgainst",
+  "@id" : "https://w3id.org/crimonto/crimonto#hasNoPowerToProsecutionAgainst",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Judge_as_Disability_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has no power to prosecution against"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Immunity_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#inheresIn",
+  "@id" : "https://w3id.org/crimonto/crimonto#inheresIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#isAttributableTo",
+  "@id" : "https://w3id.org/crimonto/crimonto#isAttributableTo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Intoxication_and_Drug_Addiction"
+    "@id" : "https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "is attributable to"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Fault"
+    "@id" : "https://w3id.org/crimonto/crimonto#Fault"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#isExemptedFrom",
+  "@id" : "https://w3id.org/crimonto/crimonto#isExemptedFrom",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Immunity_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "is exempted from"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Penalty"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#isPunishableBy",
+  "@id" : "https://w3id.org/crimonto/crimonto#isPunishableBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "is punishable by"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Penalty"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#isPunishedBy",
+  "@id" : "https://w3id.org/crimonto/crimonto#isPunishedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "is punished by"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Penalty"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#isPunishedBy_1",
+  "@id" : "https://w3id.org/crimonto/crimonto#isPunishedBy_1",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "is punished by"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Penalty"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#isReplacedBy",
+  "@id" : "https://w3id.org/crimonto/crimonto#isReplacedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "is replaced by"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Penalty"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#mediates",
+  "@id" : "https://w3id.org/crimonto/crimonto#mediates",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#modifies",
+  "@id" : "https://w3id.org/crimonto/crimonto#modifies",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty_Commutation"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "modifies"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Penalty_Relator"
+    "@id" : "https://w3id.org/crimonto/crimonto#Penalty_Relator"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#powerSubjectionToFaultBasedLiabilityHasPowerToImposeFaultBasedLiability",
+  "@id" : "https://w3id.org/crimonto/crimonto#powerSubjectionToFaultBasedLiabilityHasPowerToImposeFaultBasedLiability",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerTo_Impose_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#powerSubjectionToFaultBasedLiabilityHasSubjectionToFaultBasedLiability",
+  "@id" : "https://w3id.org/crimonto/crimonto#powerSubjectionToFaultBasedLiabilityHasSubjectionToFaultBasedLiability",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_FaultBased_Liability"
+    "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#powerSubjectionToPenaltyCommutationHasPowerToReplacePenalty",
+  "@id" : "https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyCommutationHasPowerToReplacePenalty",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty_Commutation"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Power_to_Replace_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#powerSubjectionToPenaltyCommutationHasSubjectionToReplacePenalty",
+  "@id" : "https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyCommutationHasSubjectionToReplacePenalty",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty_Commutation"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_Replace_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#powerSubjectionToPenaltyHasPowerToImposePenalty",
+  "@id" : "https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyHasPowerToImposePenalty",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Power_to_Impose_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#powerSubjectionToPenaltyHasSubjectionToPenalty",
+  "@id" : "https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyHasSubjectionToPenalty",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Subjection_to_Penalty"
+    "@id" : "https://w3id.org/crimonto/crimonto#Subjection_to_Penalty"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#producedBy",
+  "@id" : "https://w3id.org/crimonto/crimonto#producedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType"
+    "@id" : "https://w3id.org/crimonto/crimonto#MaterialRelationshipType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Intoxication_and_Drug_Addiction"
+    "@id" : "https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "produced by"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Force_Majeure"
+    "@id" : "https://w3id.org/crimonto/crimonto#Force_Majeure"
   } ]
 }, {
-  "@id" : "https://w3id.org/CriMOnto/crimonto#promptedBy",
+  "@id" : "https://w3id.org/crimonto/crimonto#promptedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Offense"
+    "@id" : "https://w3id.org/crimonto/crimonto#Offense"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "prompted by"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/CriMOnto/crimonto#Motive"
+    "@id" : "https://w3id.org/crimonto/crimonto#Motive"
   } ]
 } ]

@@ -1,12 +1,12 @@
-@prefix : <https://w3id.org/CriMOnto/crimonto#> .
+@prefix : <https://w3id.org/crimonto/crimonto#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/CriMOnto/crimonto#> .
+@base <https://w3id.org/crimonto/crimonto#> .
 
-<https://w3id.org/CriMOnto/crimonto> rdf:type owl:Ontology ;
+<https://w3id.org/crimonto/crimonto> rdf:type owl:Ontology ;
                                       owl:imports <http://purl.org/nemo/gufo#> ;
                                       <http://purl.org/dc/elements/1.1/creator> "Mirna El Ghosh" ;
                                       <http://purl.org/dc/elements/1.1/description> "A domain-specific ontology for modeling the procedural aspect of the legal norms in the context of the Lebanese penal code." ;
@@ -56,281 +56,281 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
 #    Object Properties
 #################################################################
 
-###  https://w3id.org/CriMOnto/crimonto#causedBy
+###  https://w3id.org/crimonto/crimonto#causedBy
 :causedBy rdf:type owl:ObjectProperty ;
           rdfs:domain :Loss_of_Awareness ;
           rdfs:range :Intoxication_and_Drug_Addiction .
 
 
-###  https://w3id.org/CriMOnto/crimonto#commits
+###  https://w3id.org/crimonto/crimonto#commits
 :commits rdf:type owl:ObjectProperty ;
          rdfs:domain :Offender_as_Subjection_Holder ;
          rdfs:range :Offense .
 
 
-###  https://w3id.org/CriMOnto/crimonto#commits_1
+###  https://w3id.org/crimonto/crimonto#commits_1
 :commits_1 rdf:type owl:ObjectProperty ;
            rdfs:domain :Offender_as_Immunity_Holder ;
            rdfs:range :Offense .
 
 
-###  https://w3id.org/CriMOnto/crimonto#committedUnder
+###  https://w3id.org/crimonto/crimonto#committedUnder
 :committedUnder rdf:type owl:ObjectProperty ;
                 rdfs:domain :Offense ;
                 rdfs:range :Intoxication_and_Drug_Addiction .
 
 
-###  https://w3id.org/CriMOnto/crimonto#correlates
+###  https://w3id.org/crimonto/crimonto#correlates
 :correlates rdf:type owl:ObjectProperty ;
             rdfs:domain :Disability_to_Punishment ;
             rdfs:range :Immunity_to_Punishment ;
             rdfs:label "correlates"@en .
 
 
-###  https://w3id.org/CriMOnto/crimonto#correlates_1
+###  https://w3id.org/crimonto/crimonto#correlates_1
 :correlates_1 rdf:type owl:ObjectProperty ;
               rdfs:domain :Power_to_Impose_Penalty ;
               rdfs:range :Subjection_to_Penalty ;
               rdfs:label "correlates"@en .
 
 
-###  https://w3id.org/CriMOnto/crimonto#correlates_2
+###  https://w3id.org/crimonto/crimonto#correlates_2
 :correlates_2 rdf:type owl:ObjectProperty ;
               rdfs:domain :Power_to_Replace_Penalty ;
               rdfs:range :Subjection_to_Replace_Penalty ;
               rdfs:label "correlates"@en .
 
 
-###  https://w3id.org/CriMOnto/crimonto#correlates_3
+###  https://w3id.org/crimonto/crimonto#correlates_3
 :correlates_3 rdf:type owl:ObjectProperty ;
               rdfs:domain :PowerTo_Impose_FaultBased_Liability ;
               rdfs:range :Subjection_to_FaultBased_Liability ;
               rdfs:label "correlates"@en .
 
 
-###  https://w3id.org/CriMOnto/crimonto#courtHasJudge
+###  https://w3id.org/crimonto/crimonto#courtHasJudge
 :courtHasJudge rdf:type owl:ObjectProperty ;
                rdfs:domain :Court ;
                rdfs:range :Judge .
 
 
-###  https://w3id.org/CriMOnto/crimonto#creates
+###  https://w3id.org/crimonto/crimonto#creates
 :creates rdf:type owl:ObjectProperty ;
          rdfs:domain :PowerSubjection_to_Penalty ;
          rdfs:range :Penalty_Relator .
 
 
-###  https://w3id.org/CriMOnto/crimonto#creates_1
+###  https://w3id.org/crimonto/crimonto#creates_1
 :creates_1 rdf:type owl:ObjectProperty ;
            rdfs:domain :PowerSubjection_to_FaultBased_Liability ;
            rdfs:range :Responsibility_of_Unintentional_Offense .
 
 
-###  https://w3id.org/CriMOnto/crimonto#dependsOn
+###  https://w3id.org/crimonto/crimonto#dependsOn
 :dependsOn rdf:type owl:ObjectProperty ;
            rdfs:domain :Penalty ;
            rdfs:range :Criminal_Law_Promulgation .
 
 
-###  https://w3id.org/CriMOnto/crimonto#dependsOn_1
+###  https://w3id.org/crimonto/crimonto#dependsOn_1
 :dependsOn_1 rdf:type owl:ObjectProperty ;
              rdfs:domain :Responsibility_of_Unintentional_Offense ;
              rdfs:range :Unintentional_Offense_Relator .
 
 
-###  https://w3id.org/CriMOnto/crimonto#dependsOn_2
+###  https://w3id.org/crimonto/crimonto#dependsOn_2
 :dependsOn_2 rdf:type owl:ObjectProperty ;
              rdfs:domain :Penalty_Relator ;
              rdfs:range :Offense_Relator .
 
 
-###  https://w3id.org/CriMOnto/crimonto#exemptionFromPunishmentHasDisabilityToPunishment
+###  https://w3id.org/crimonto/crimonto#exemptionFromPunishmentHasDisabilityToPunishment
 :exemptionFromPunishmentHasDisabilityToPunishment rdf:type owl:ObjectProperty ;
                                                   rdfs:domain :Exemption_from_Punishment ;
                                                   rdfs:range :Disability_to_Punishment .
 
 
-###  https://w3id.org/CriMOnto/crimonto#exemptionFromPunishmentHasImmunityToPunishment
+###  https://w3id.org/crimonto/crimonto#exemptionFromPunishmentHasImmunityToPunishment
 :exemptionFromPunishmentHasImmunityToPunishment rdf:type owl:ObjectProperty ;
                                                 rdfs:domain :Exemption_from_Punishment ;
                                                 rdfs:range :Immunity_to_Punishment .
 
 
-###  https://w3id.org/CriMOnto/crimonto#externallyDependsOn
+###  https://w3id.org/crimonto/crimonto#externallyDependsOn
 :externallyDependsOn rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/CriMOnto/crimonto#generates
+###  https://w3id.org/crimonto/crimonto#generates
 :generates rdf:type owl:ObjectProperty ;
            rdfs:domain :Penalty ;
            rdfs:range :Penalty_Relator .
 
 
-###  https://w3id.org/CriMOnto/crimonto#generates_1
+###  https://w3id.org/crimonto/crimonto#generates_1
 :generates_1 rdf:type owl:ObjectProperty ;
              rdfs:domain :Offense ;
              rdfs:range :Offense_Relator .
 
 
-###  https://w3id.org/CriMOnto/crimonto#grounds
+###  https://w3id.org/crimonto/crimonto#grounds
 :grounds rdf:type owl:ObjectProperty ;
          rdfs:domain :Criminal_Law_Promulgation ;
          rdfs:range :PowerSubjection_to_Penalty .
 
 
-###  https://w3id.org/CriMOnto/crimonto#grounds_1
+###  https://w3id.org/crimonto/crimonto#grounds_1
 :grounds_1 rdf:type owl:ObjectProperty ;
            rdfs:domain :Criminal_Law_Promulgation ;
            rdfs:range :PowerSubjection_to_FaultBased_Liability .
 
 
-###  https://w3id.org/CriMOnto/crimonto#grounds_2
+###  https://w3id.org/crimonto/crimonto#grounds_2
 :grounds_2 rdf:type owl:ObjectProperty ;
            rdfs:domain :Criminal_Law_Promulgation ;
            rdfs:range :PowerSubjection_to_Penalty_Commutation .
 
 
-###  https://w3id.org/CriMOnto/crimonto#grounds_3
+###  https://w3id.org/crimonto/crimonto#grounds_3
 :grounds_3 rdf:type owl:ObjectProperty ;
            rdfs:domain :Criminal_Law_Promulgation ;
            rdfs:range :Responsibility_of_Unintentional_Offense .
 
 
-###  https://w3id.org/CriMOnto/crimonto#grounds_4
+###  https://w3id.org/crimonto/crimonto#grounds_4
 :grounds_4 rdf:type owl:ObjectProperty ;
            rdfs:domain :Criminal_Law_Promulgation ;
            rdfs:range :Exemption_from_Punishment .
 
 
-###  https://w3id.org/CriMOnto/crimonto#hasALegalPowerAgainst
+###  https://w3id.org/crimonto/crimonto#hasALegalPowerAgainst
 :hasALegalPowerAgainst rdf:type owl:ObjectProperty ;
                        rdfs:domain :UFOLPower_Holder ;
                        rdfs:range :UFOLSubjection_Holder .
 
 
-###  https://w3id.org/CriMOnto/crimonto#hasAPowerToImposeAPenaltyAgainst
+###  https://w3id.org/crimonto/crimonto#hasAPowerToImposeAPenaltyAgainst
 :hasAPowerToImposeAPenaltyAgainst rdf:type owl:ObjectProperty ;
                                   rdfs:domain :Judge_as_Power_Holder ;
                                   rdfs:range :Offender_as_Subjection_Holder .
 
 
-###  https://w3id.org/CriMOnto/crimonto#hasAPowerToImposeAResponsibilityOfAnUnintentionalOffenseAgainst
+###  https://w3id.org/crimonto/crimonto#hasAPowerToImposeAResponsibilityOfAnUnintentionalOffenseAgainst
 :hasAPowerToImposeAResponsibilityOfAnUnintentionalOffenseAgainst rdf:type owl:ObjectProperty ;
                                                                  rdfs:domain :Judge_as_Power_Holder ;
                                                                  rdfs:range :Offender_as_Subjection_Holder .
 
 
-###  https://w3id.org/CriMOnto/crimonto#hasAPowerToSubstituteOrModifyAPenaltyAgainst
+###  https://w3id.org/crimonto/crimonto#hasAPowerToSubstituteOrModifyAPenaltyAgainst
 :hasAPowerToSubstituteOrModifyAPenaltyAgainst rdf:type owl:ObjectProperty ;
                                               rdfs:domain :Judge_as_Power_Holder ;
                                               rdfs:range :Offender_as_Subjection_Holder .
 
 
-###  https://w3id.org/CriMOnto/crimonto#hasNoPowerAgainst
+###  https://w3id.org/crimonto/crimonto#hasNoPowerAgainst
 :hasNoPowerAgainst rdf:type owl:ObjectProperty ;
                    rdfs:domain :UFOLDisability_Holder ;
                    rdfs:range :UFOLImmunity_Holder .
 
 
-###  https://w3id.org/CriMOnto/crimonto#hasNoPowerToProsecutionAgainst
+###  https://w3id.org/crimonto/crimonto#hasNoPowerToProsecutionAgainst
 :hasNoPowerToProsecutionAgainst rdf:type owl:ObjectProperty ;
                                 rdfs:domain :Judge_as_Disability_Holder ;
                                 rdfs:range :Offender_as_Immunity_Holder .
 
 
-###  https://w3id.org/CriMOnto/crimonto#inheresIn
+###  https://w3id.org/crimonto/crimonto#inheresIn
 :inheresIn rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/CriMOnto/crimonto#isAttributableTo
+###  https://w3id.org/crimonto/crimonto#isAttributableTo
 :isAttributableTo rdf:type owl:ObjectProperty ;
                   rdfs:domain :Intoxication_and_Drug_Addiction ;
                   rdfs:range :Fault .
 
 
-###  https://w3id.org/CriMOnto/crimonto#isExemptedFrom
+###  https://w3id.org/crimonto/crimonto#isExemptedFrom
 :isExemptedFrom rdf:type owl:ObjectProperty ;
                 rdfs:domain :Offender_as_Immunity_Holder ;
                 rdfs:range :Penalty .
 
 
-###  https://w3id.org/CriMOnto/crimonto#isPunishableBy
+###  https://w3id.org/crimonto/crimonto#isPunishableBy
 :isPunishableBy rdf:type owl:ObjectProperty ;
                 rdfs:domain :Offense ;
                 rdfs:range :Penalty .
 
 
-###  https://w3id.org/CriMOnto/crimonto#isPunishedBy
+###  https://w3id.org/crimonto/crimonto#isPunishedBy
 :isPunishedBy rdf:type owl:ObjectProperty ;
               rdfs:domain :Offender_as_Subjection_Holder ;
               rdfs:range :Penalty .
 
 
-###  https://w3id.org/CriMOnto/crimonto#isPunishedBy_1
+###  https://w3id.org/crimonto/crimonto#isPunishedBy_1
 :isPunishedBy_1 rdf:type owl:ObjectProperty ;
                 rdfs:domain :Offender_as_Subjection_Holder ;
                 rdfs:range :Penalty .
 
 
-###  https://w3id.org/CriMOnto/crimonto#isReplacedBy
+###  https://w3id.org/crimonto/crimonto#isReplacedBy
 :isReplacedBy rdf:type owl:ObjectProperty ;
               rdfs:domain :Penalty ;
               rdfs:range :Penalty .
 
 
-###  https://w3id.org/CriMOnto/crimonto#mediates
+###  https://w3id.org/crimonto/crimonto#mediates
 :mediates rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/CriMOnto/crimonto#modifies
+###  https://w3id.org/crimonto/crimonto#modifies
 :modifies rdf:type owl:ObjectProperty ;
           rdfs:domain :PowerSubjection_to_Penalty_Commutation ;
           rdfs:range :Penalty_Relator .
 
 
-###  https://w3id.org/CriMOnto/crimonto#powerSubjectionToFaultBasedLiabilityHasPowerToImposeFaultBasedLiability
+###  https://w3id.org/crimonto/crimonto#powerSubjectionToFaultBasedLiabilityHasPowerToImposeFaultBasedLiability
 :powerSubjectionToFaultBasedLiabilityHasPowerToImposeFaultBasedLiability rdf:type owl:ObjectProperty ;
                                                                          rdfs:domain :PowerSubjection_to_FaultBased_Liability ;
                                                                          rdfs:range :PowerTo_Impose_FaultBased_Liability .
 
 
-###  https://w3id.org/CriMOnto/crimonto#powerSubjectionToFaultBasedLiabilityHasSubjectionToFaultBasedLiability
+###  https://w3id.org/crimonto/crimonto#powerSubjectionToFaultBasedLiabilityHasSubjectionToFaultBasedLiability
 :powerSubjectionToFaultBasedLiabilityHasSubjectionToFaultBasedLiability rdf:type owl:ObjectProperty ;
                                                                         rdfs:domain :PowerSubjection_to_FaultBased_Liability ;
                                                                         rdfs:range :Subjection_to_FaultBased_Liability .
 
 
-###  https://w3id.org/CriMOnto/crimonto#powerSubjectionToPenaltyCommutationHasPowerToReplacePenalty
+###  https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyCommutationHasPowerToReplacePenalty
 :powerSubjectionToPenaltyCommutationHasPowerToReplacePenalty rdf:type owl:ObjectProperty ;
                                                              rdfs:domain :PowerSubjection_to_Penalty_Commutation ;
                                                              rdfs:range :Power_to_Replace_Penalty .
 
 
-###  https://w3id.org/CriMOnto/crimonto#powerSubjectionToPenaltyCommutationHasSubjectionToReplacePenalty
+###  https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyCommutationHasSubjectionToReplacePenalty
 :powerSubjectionToPenaltyCommutationHasSubjectionToReplacePenalty rdf:type owl:ObjectProperty ;
                                                                   rdfs:domain :PowerSubjection_to_Penalty_Commutation ;
                                                                   rdfs:range :Subjection_to_Replace_Penalty .
 
 
-###  https://w3id.org/CriMOnto/crimonto#powerSubjectionToPenaltyHasPowerToImposePenalty
+###  https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyHasPowerToImposePenalty
 :powerSubjectionToPenaltyHasPowerToImposePenalty rdf:type owl:ObjectProperty ;
                                                  rdfs:domain :PowerSubjection_to_Penalty ;
                                                  rdfs:range :Power_to_Impose_Penalty .
 
 
-###  https://w3id.org/CriMOnto/crimonto#powerSubjectionToPenaltyHasSubjectionToPenalty
+###  https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyHasSubjectionToPenalty
 :powerSubjectionToPenaltyHasSubjectionToPenalty rdf:type owl:ObjectProperty ;
                                                 rdfs:domain :PowerSubjection_to_Penalty ;
                                                 rdfs:range :Subjection_to_Penalty .
 
 
-###  https://w3id.org/CriMOnto/crimonto#producedBy
+###  https://w3id.org/crimonto/crimonto#producedBy
 :producedBy rdf:type owl:ObjectProperty ;
             rdfs:domain :Intoxication_and_Drug_Addiction ;
             rdfs:range :Force_Majeure .
 
 
-###  https://w3id.org/CriMOnto/crimonto#promptedBy
+###  https://w3id.org/crimonto/crimonto#promptedBy
 :promptedBy rdf:type owl:ObjectProperty ;
             rdfs:domain :Offense ;
             rdfs:range :Motive ;
@@ -341,73 +341,73 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
 #    Classes
 #################################################################
 
-###  https://w3id.org/CriMOnto/crimonto#Absence_of_Responsibility
+###  https://w3id.org/crimonto/crimonto#Absence_of_Responsibility
 :Absence_of_Responsibility rdf:type owl:Class ;
                            rdfs:subClassOf :Impediments_to_Prosecution .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Accessory
+###  https://w3id.org/crimonto/crimonto#Accessory
 :Accessory rdf:type owl:Class ;
            rdfs:subClassOf :Offender .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Accomplice
+###  https://w3id.org/crimonto/crimonto#Accomplice
 :Accomplice rdf:type owl:Class ;
             rdfs:subClassOf :Offender .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Aggravating_Circumstances
+###  https://w3id.org/crimonto/crimonto#Aggravating_Circumstances
 :Aggravating_Circumstances rdf:type owl:Class ;
                            rdfs:subClassOf :Legally_Defined_Circumstance .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Base
+###  https://w3id.org/crimonto/crimonto#Base
 :Base rdf:type owl:Class ;
       rdfs:subClassOf :Motive .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Category
+###  https://w3id.org/crimonto/crimonto#Category
 :Category rdf:type owl:Class .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Compulsion_and_Moral_Duress
+###  https://w3id.org/crimonto/crimonto#Compulsion_and_Moral_Duress
 :Compulsion_and_Moral_Duress rdf:type owl:Class ;
                              rdfs:subClassOf :Force_Majeure ;
                              owl:disjointWith :State_of_Necessity .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Contravention
+###  https://w3id.org/crimonto/crimonto#Contravention
 :Contravention rdf:type owl:Class ;
                rdfs:subClassOf :Offense .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Court
+###  https://w3id.org/crimonto/crimonto#Court
 :Court rdf:type owl:Class ;
        rdfs:subClassOf :UFOLAgentive_Legal_Institution .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Criminal_Act
+###  https://w3id.org/crimonto/crimonto#Criminal_Act
 :Criminal_Act rdf:type owl:Class ;
               rdfs:subClassOf :UFOAction_Contribution ;
               owl:disjointWith :Judicial_Act .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Criminal_Conviction
+###  https://w3id.org/crimonto/crimonto#Criminal_Conviction
 :Criminal_Conviction rdf:type owl:Class ;
                      rdfs:subClassOf :Judicial_Act .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Criminal_Court
+###  https://w3id.org/crimonto/crimonto#Criminal_Court
 :Criminal_Court rdf:type owl:Class ;
                 rdfs:subClassOf :Court .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Criminal_Law_Promulgation
+###  https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation
 :Criminal_Law_Promulgation rdf:type owl:Class ;
                            rdfs:subClassOf :Event .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Disability_to_Punishment
+###  https://w3id.org/crimonto/crimonto#Disability_to_Punishment
 :Disability_to_Punishment rdf:type owl:Class ;
                           rdfs:subClassOf :IntrinsicMode ,
                                           [ rdf:type owl:Restriction ;
@@ -422,37 +422,37 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                           ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Dishonorable
+###  https://w3id.org/crimonto/crimonto#Dishonorable
 :Dishonorable rdf:type owl:Class ;
               rdfs:subClassOf :Motive_Quality ;
               owl:disjointWith :Honorable .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Error
+###  https://w3id.org/crimonto/crimonto#Error
 :Error rdf:type owl:Class ;
        rdfs:subClassOf :Impediments_to_Prosecution .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Error_of_Fact
+###  https://w3id.org/crimonto/crimonto#Error_of_Fact
 :Error_of_Fact rdf:type owl:Class ;
                rdfs:subClassOf :Error ;
                owl:disjointWith :Error_of_Law .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Error_of_Law
+###  https://w3id.org/crimonto/crimonto#Error_of_Law
 :Error_of_Law rdf:type owl:Class ;
               rdfs:subClassOf :Error .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Event
+###  https://w3id.org/crimonto/crimonto#Event
 :Event rdf:type owl:Class .
 
 
-###  https://w3id.org/CriMOnto/crimonto#EventType
+###  https://w3id.org/crimonto/crimonto#EventType
 :EventType rdf:type owl:Class .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Exemption_from_Punishment
+###  https://w3id.org/crimonto/crimonto#Exemption_from_Punishment
 :Exemption_from_Punishment rdf:type owl:Class ;
                            rdfs:subClassOf :UFOLDisabilityImmunity_Relator ,
                                            [ rdf:type owl:Restriction ;
@@ -467,12 +467,12 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                            ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Extenuating_Circumstances
+###  https://w3id.org/crimonto/crimonto#Extenuating_Circumstances
 :Extenuating_Circumstances rdf:type owl:Class ;
                            rdfs:subClassOf :Legally_Defined_Circumstance .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Fault
+###  https://w3id.org/crimonto/crimonto#Fault
 :Fault rdf:type owl:Class ;
        rdfs:subClassOf :UFOMental_Moment ,
                        [ rdf:type owl:Restriction ;
@@ -483,31 +483,31 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                        ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Felony
+###  https://w3id.org/crimonto/crimonto#Felony
 :Felony rdf:type owl:Class ;
         rdfs:subClassOf :Offense .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Force_Majeure
+###  https://w3id.org/crimonto/crimonto#Force_Majeure
 :Force_Majeure rdf:type owl:Class ;
                rdfs:subClassOf :Impediments_to_Prosecution .
 
 
-###  https://w3id.org/CriMOnto/crimonto#FunctionalComplex
+###  https://w3id.org/crimonto/crimonto#FunctionalComplex
 :FunctionalComplex rdf:type owl:Class .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Gain
+###  https://w3id.org/crimonto/crimonto#Gain
 :Gain rdf:type owl:Class ;
       rdfs:subClassOf :Motive .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Honorable
+###  https://w3id.org/crimonto/crimonto#Honorable
 :Honorable rdf:type owl:Class ;
            rdfs:subClassOf :Motive_Quality .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Immunity_to_Punishment
+###  https://w3id.org/crimonto/crimonto#Immunity_to_Punishment
 :Immunity_to_Punishment rdf:type owl:Class ;
                         rdfs:subClassOf :IntrinsicMode ,
                                         [ rdf:type owl:Restriction ;
@@ -522,45 +522,45 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                         ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Impediments_to_Prosecution
+###  https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution
 :Impediments_to_Prosecution rdf:type owl:Class ;
                             rdfs:subClassOf :Legally_Defined_Circumstance .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Insanity
+###  https://w3id.org/crimonto/crimonto#Insanity
 :Insanity rdf:type owl:Class ;
           rdfs:subClassOf :Absence_of_Responsibility ;
           owl:disjointWith :Intoxication_and_Drug_Addiction .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Instigator
+###  https://w3id.org/crimonto/crimonto#Instigator
 :Instigator rdf:type owl:Class ;
             rdfs:subClassOf :Offender .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Intentional_Offense
+###  https://w3id.org/crimonto/crimonto#Intentional_Offense
 :Intentional_Offense rdf:type owl:Class ;
                      rdfs:subClassOf :Criminal_Act ,
                                      :Offense ;
                      owl:disjointWith :Unintentional_Offense .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Intoxication_and_Drug_Addiction
+###  https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction
 :Intoxication_and_Drug_Addiction rdf:type owl:Class ;
                                  rdfs:subClassOf :Absence_of_Responsibility .
 
 
-###  https://w3id.org/CriMOnto/crimonto#IntrinsicMode
+###  https://w3id.org/crimonto/crimonto#IntrinsicMode
 :IntrinsicMode rdf:type owl:Class .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Judge
+###  https://w3id.org/crimonto/crimonto#Judge
 :Judge rdf:type owl:Class ;
        rdfs:subClassOf :Legal_Professional ,
                        :UFOLLegal_Agent .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Judge_as_Disability_Holder
+###  https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder
 :Judge_as_Disability_Holder rdf:type owl:Class ;
                             rdfs:subClassOf :Judge ,
                                             :UFOLDisability_Holder ,
@@ -583,7 +583,7 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                             ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder
+###  https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder
 :Judge_as_Power_Holder rdf:type owl:Class ;
                        rdfs:subClassOf :Judge ,
                                        :UFOLPower_Holder ,
@@ -640,41 +640,41 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                        ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Judicial_Act
+###  https://w3id.org/crimonto/crimonto#Judicial_Act
 :Judicial_Act rdf:type owl:Class ;
               rdfs:subClassOf :UFOAction_Contribution .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Kind
+###  https://w3id.org/crimonto/crimonto#Kind
 :Kind rdf:type owl:Class .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Law_Violation
+###  https://w3id.org/crimonto/crimonto#Law_Violation
 :Law_Violation rdf:type owl:Class ;
                rdfs:subClassOf :UFOAgent_Participation .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Law_Violator
+###  https://w3id.org/crimonto/crimonto#Law_Violator
 :Law_Violator rdf:type owl:Class ;
               rdfs:subClassOf :UFOLLegal_Agent .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Legal_Professional
+###  https://w3id.org/crimonto/crimonto#Legal_Professional
 :Legal_Professional rdf:type owl:Class ;
                     rdfs:subClassOf :UFOLLegal_Agent .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Legally_Defined_Circumstance
+###  https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance
 :Legally_Defined_Circumstance rdf:type owl:Class ;
                               rdfs:subClassOf :UFOSituation .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Liability_Relator
+###  https://w3id.org/crimonto/crimonto#Liability_Relator
 :Liability_Relator rdf:type owl:Class ;
                    rdfs:subClassOf :UFOLLegal_Relator .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Loss_of_Awareness
+###  https://w3id.org/crimonto/crimonto#Loss_of_Awareness
 :Loss_of_Awareness rdf:type owl:Class ;
                    rdfs:subClassOf :UFOMental_Moment ,
                                    [ rdf:type owl:Restriction ;
@@ -685,21 +685,21 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                    ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#MaterialRelationshipType
+###  https://w3id.org/crimonto/crimonto#MaterialRelationshipType
 :MaterialRelationshipType rdf:type owl:Class .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Mental_Deficiency
+###  https://w3id.org/crimonto/crimonto#Mental_Deficiency
 :Mental_Deficiency rdf:type owl:Class ;
                    rdfs:subClassOf :Insanity .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Misdemeanor
+###  https://w3id.org/crimonto/crimonto#Misdemeanor
 :Misdemeanor rdf:type owl:Class ;
              rdfs:subClassOf :Offense .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Motive
+###  https://w3id.org/crimonto/crimonto#Motive
 :Motive rdf:type owl:Class ;
         rdfs:subClassOf :UFOMental_Moment ,
                         [ rdf:type owl:Restriction ;
@@ -715,7 +715,7 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                         ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Motive_Quality
+###  https://w3id.org/crimonto/crimonto#Motive_Quality
 :Motive_Quality rdf:type owl:Class ;
                 rdfs:subClassOf :Quality ,
                                 [ rdf:type owl:Restriction ;
@@ -726,13 +726,13 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                 ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Offender
+###  https://w3id.org/crimonto/crimonto#Offender
 :Offender rdf:type owl:Class ;
           rdfs:subClassOf :Law_Violator ,
                           :UFOLLegal_Agent .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Offender_as_Immunity_Holder
+###  https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder
 :Offender_as_Immunity_Holder rdf:type owl:Class ;
                              rdfs:subClassOf :Offender ,
                                              :UFOLImmunity_Holder ,
@@ -760,7 +760,7 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                              ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder
+###  https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder
 :Offender_as_Subjection_Holder rdf:type owl:Class ;
                                rdfs:subClassOf :Offender ,
                                                :UFOLSubjection_Holder ,
@@ -842,12 +842,12 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                                ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Offense
+###  https://w3id.org/crimonto/crimonto#Offense
 :Offense rdf:type owl:Class ;
          rdfs:subClassOf :Law_Violation .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Offense_Relator
+###  https://w3id.org/crimonto/crimonto#Offense_Relator
 :Offense_Relator rdf:type owl:Class ;
                  rdfs:subClassOf :UFOLLegal_Relator ,
                                  [ rdf:type owl:Restriction ;
@@ -857,12 +857,12 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                  ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Penalty
+###  https://w3id.org/crimonto/crimonto#Penalty
 :Penalty rdf:type owl:Class ;
          rdfs:subClassOf :Criminal_Conviction .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Penalty_Relator
+###  https://w3id.org/crimonto/crimonto#Penalty_Relator
 :Penalty_Relator rdf:type owl:Class ;
                  rdfs:subClassOf :UFOLLegal_Relator ,
                                  [ rdf:type owl:Restriction ;
@@ -872,17 +872,17 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                  ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Perpetrator
+###  https://w3id.org/crimonto/crimonto#Perpetrator
 :Perpetrator rdf:type owl:Class ;
              rdfs:subClassOf :Offender .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Political
+###  https://w3id.org/crimonto/crimonto#Political
 :Political rdf:type owl:Class ;
            rdfs:subClassOf :Motive .
 
 
-###  https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_FaultBased_Liability
+###  https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability
 :PowerSubjection_to_FaultBased_Liability rdf:type owl:Class ;
                                          rdfs:subClassOf :UFOLPowerSubjection_Relator ,
                                                          [ rdf:type owl:Restriction ;
@@ -897,12 +897,12 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                                          ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Liability
+###  https://w3id.org/crimonto/crimonto#PowerSubjection_to_Liability
 :PowerSubjection_to_Liability rdf:type owl:Class ;
                               rdfs:subClassOf :UFOLPowerSubjection_Relator .
 
 
-###  https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty
+###  https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty
 :PowerSubjection_to_Penalty rdf:type owl:Class ;
                             rdfs:subClassOf :UFOLPowerSubjection_Relator ,
                                             [ rdf:type owl:Restriction ;
@@ -917,7 +917,7 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                             ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty_Commutation
+###  https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation
 :PowerSubjection_to_Penalty_Commutation rdf:type owl:Class ;
                                         rdfs:subClassOf :UFOLPowerSubjection_Relator ,
                                                         [ rdf:type owl:Restriction ;
@@ -932,7 +932,7 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                                         ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#PowerTo_Impose_FaultBased_Liability
+###  https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability
 :PowerTo_Impose_FaultBased_Liability rdf:type owl:Class ;
                                      rdfs:subClassOf :IntrinsicMode ,
                                                      [ rdf:type owl:Restriction ;
@@ -947,7 +947,7 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                                      ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Power_to_Impose_Penalty
+###  https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty
 :Power_to_Impose_Penalty rdf:type owl:Class ;
                          rdfs:subClassOf :IntrinsicMode ,
                                          [ rdf:type owl:Restriction ;
@@ -962,7 +962,7 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                          ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Power_to_Replace_Penalty
+###  https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty
 :Power_to_Replace_Penalty rdf:type owl:Class ;
                           rdfs:subClassOf :IntrinsicMode ,
                                           [ rdf:type owl:Restriction ;
@@ -977,15 +977,15 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                           ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Quality
+###  https://w3id.org/crimonto/crimonto#Quality
 :Quality rdf:type owl:Class .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Relator
+###  https://w3id.org/crimonto/crimonto#Relator
 :Relator rdf:type owl:Class .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Responsibility_of_Unintentional_Offense
+###  https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense
 :Responsibility_of_Unintentional_Offense rdf:type owl:Class ;
                                          rdfs:subClassOf :UFOLLegal_Relator ,
                                                          [ rdf:type owl:Restriction ;
@@ -995,28 +995,28 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                                          ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Role
+###  https://w3id.org/crimonto/crimonto#Role
 :Role rdf:type owl:Class .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Situation
+###  https://w3id.org/crimonto/crimonto#Situation
 :Situation rdf:type owl:Class .
 
 
-###  https://w3id.org/CriMOnto/crimonto#SituationType
+###  https://w3id.org/crimonto/crimonto#SituationType
 :SituationType rdf:type owl:Class .
 
 
-###  https://w3id.org/CriMOnto/crimonto#State_of_Necessity
+###  https://w3id.org/crimonto/crimonto#State_of_Necessity
 :State_of_Necessity rdf:type owl:Class ;
                     rdfs:subClassOf :Force_Majeure .
 
 
-###  https://w3id.org/CriMOnto/crimonto#SubKind
+###  https://w3id.org/crimonto/crimonto#SubKind
 :SubKind rdf:type owl:Class .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Subjection_to_FaultBased_Liability
+###  https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability
 :Subjection_to_FaultBased_Liability rdf:type owl:Class ;
                                     rdfs:subClassOf :IntrinsicMode ,
                                                     [ rdf:type owl:Restriction ;
@@ -1031,7 +1031,7 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                                     ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Subjection_to_Penalty
+###  https://w3id.org/crimonto/crimonto#Subjection_to_Penalty
 :Subjection_to_Penalty rdf:type owl:Class ;
                        rdfs:subClassOf :IntrinsicMode ,
                                        [ rdf:type owl:Restriction ;
@@ -1046,7 +1046,7 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                        ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Subjection_to_Replace_Penalty
+###  https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty
 :Subjection_to_Replace_Penalty rdf:type owl:Class ;
                                rdfs:subClassOf :IntrinsicMode ,
                                                [ rdf:type owl:Restriction ;
@@ -1061,77 +1061,77 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
                                                ] .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOAction_Contribution
+###  https://w3id.org/crimonto/crimonto#UFOAction_Contribution
 :UFOAction_Contribution rdf:type owl:Class ;
                         rdfs:subClassOf :UFOAgent_Participation .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOAgent_Participation
+###  https://w3id.org/crimonto/crimonto#UFOAgent_Participation
 :UFOAgent_Participation rdf:type owl:Class ;
                         rdfs:subClassOf :Event .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLAgentive_Legal_Institution
+###  https://w3id.org/crimonto/crimonto#UFOLAgentive_Legal_Institution
 :UFOLAgentive_Legal_Institution rdf:type owl:Class ;
                                 rdfs:subClassOf :UFOLLegal_Agent .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLDisabilityImmunity_Relator
+###  https://w3id.org/crimonto/crimonto#UFOLDisabilityImmunity_Relator
 :UFOLDisabilityImmunity_Relator rdf:type owl:Class ;
                                 rdfs:subClassOf :Relator .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLDisability_Holder
+###  https://w3id.org/crimonto/crimonto#UFOLDisability_Holder
 :UFOLDisability_Holder rdf:type owl:Class ;
                        rdfs:subClassOf :UFOLLegal_Agent .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLImmunity_Holder
+###  https://w3id.org/crimonto/crimonto#UFOLImmunity_Holder
 :UFOLImmunity_Holder rdf:type owl:Class ;
                      rdfs:subClassOf :UFOLLegal_Agent .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLLegal_Agent
+###  https://w3id.org/crimonto/crimonto#UFOLLegal_Agent
 :UFOLLegal_Agent rdf:type owl:Class ;
                  rdfs:subClassOf :FunctionalComplex .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLLegal_Relator
+###  https://w3id.org/crimonto/crimonto#UFOLLegal_Relator
 :UFOLLegal_Relator rdf:type owl:Class ;
                    rdfs:subClassOf :Relator .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLPowerSubjection_Relator
+###  https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator
 :UFOLPowerSubjection_Relator rdf:type owl:Class ;
                              rdfs:subClassOf :Relator .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLPower_Holder
+###  https://w3id.org/crimonto/crimonto#UFOLPower_Holder
 :UFOLPower_Holder rdf:type owl:Class ;
                   rdfs:subClassOf :UFOLLegal_Agent .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLSubjection_Holder
+###  https://w3id.org/crimonto/crimonto#UFOLSubjection_Holder
 :UFOLSubjection_Holder rdf:type owl:Class ;
                        rdfs:subClassOf :UFOLLegal_Agent .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOMental_Moment
+###  https://w3id.org/crimonto/crimonto#UFOMental_Moment
 :UFOMental_Moment rdf:type owl:Class ;
                   rdfs:subClassOf :IntrinsicMode .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOSituation
+###  https://w3id.org/crimonto/crimonto#UFOSituation
 :UFOSituation rdf:type owl:Class ;
               rdfs:subClassOf :Situation .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Unintentional_Offense
+###  https://w3id.org/crimonto/crimonto#Unintentional_Offense
 :Unintentional_Offense rdf:type owl:Class ;
                        rdfs:subClassOf :Offense .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Unintentional_Offense_Relator
+###  https://w3id.org/crimonto/crimonto#Unintentional_Offense_Relator
 :Unintentional_Offense_Relator rdf:type owl:Class ;
                                rdfs:subClassOf :Relator .
 
@@ -1140,552 +1140,552 @@ CriMOnto: A generalized domain-specific ontology for modeling procedural norms o
 #    Individuals
 #################################################################
 
-###  https://w3id.org/CriMOnto/crimonto#Absence_of_Responsibility
+###  https://w3id.org/crimonto/crimonto#Absence_of_Responsibility
 :Absence_of_Responsibility rdf:type owl:NamedIndividual ,
                                     :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Accessory
+###  https://w3id.org/crimonto/crimonto#Accessory
 :Accessory rdf:type owl:NamedIndividual ,
                     :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Accomplice
+###  https://w3id.org/crimonto/crimonto#Accomplice
 :Accomplice rdf:type owl:NamedIndividual ,
                      :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Aggravating_Circumstances
+###  https://w3id.org/crimonto/crimonto#Aggravating_Circumstances
 :Aggravating_Circumstances rdf:type owl:NamedIndividual ,
                                     :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Base
+###  https://w3id.org/crimonto/crimonto#Base
 :Base rdf:type owl:NamedIndividual ,
                :SubKind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Compulsion_and_Moral_Duress
+###  https://w3id.org/crimonto/crimonto#Compulsion_and_Moral_Duress
 :Compulsion_and_Moral_Duress rdf:type owl:NamedIndividual ,
                                       :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Contravention
+###  https://w3id.org/crimonto/crimonto#Contravention
 :Contravention rdf:type owl:NamedIndividual ,
                         :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Court
+###  https://w3id.org/crimonto/crimonto#Court
 :Court rdf:type owl:NamedIndividual ,
                 :SubKind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Criminal_Act
+###  https://w3id.org/crimonto/crimonto#Criminal_Act
 :Criminal_Act rdf:type owl:NamedIndividual ,
                        :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Criminal_Conviction
+###  https://w3id.org/crimonto/crimonto#Criminal_Conviction
 :Criminal_Conviction rdf:type owl:NamedIndividual ,
                               :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Criminal_Court
+###  https://w3id.org/crimonto/crimonto#Criminal_Court
 :Criminal_Court rdf:type owl:NamedIndividual ,
                          :SubKind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Criminal_Law_Promulgation
+###  https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation
 :Criminal_Law_Promulgation rdf:type owl:NamedIndividual ,
                                     :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Disability_to_Punishment
+###  https://w3id.org/crimonto/crimonto#Disability_to_Punishment
 :Disability_to_Punishment rdf:type owl:NamedIndividual ,
                                    :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Dishonorable
+###  https://w3id.org/crimonto/crimonto#Dishonorable
 :Dishonorable rdf:type owl:NamedIndividual ,
                        :SubKind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Error
+###  https://w3id.org/crimonto/crimonto#Error
 :Error rdf:type owl:NamedIndividual ,
                 :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Error_of_Fact
+###  https://w3id.org/crimonto/crimonto#Error_of_Fact
 :Error_of_Fact rdf:type owl:NamedIndividual ,
                         :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Error_of_Law
+###  https://w3id.org/crimonto/crimonto#Error_of_Law
 :Error_of_Law rdf:type owl:NamedIndividual ,
                        :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Exemption_from_Punishment
+###  https://w3id.org/crimonto/crimonto#Exemption_from_Punishment
 :Exemption_from_Punishment rdf:type owl:NamedIndividual ,
                                     :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Extenuating_Circumstances
+###  https://w3id.org/crimonto/crimonto#Extenuating_Circumstances
 :Extenuating_Circumstances rdf:type owl:NamedIndividual ,
                                     :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Fault
+###  https://w3id.org/crimonto/crimonto#Fault
 :Fault rdf:type owl:NamedIndividual ,
                 :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Felony
+###  https://w3id.org/crimonto/crimonto#Felony
 :Felony rdf:type owl:NamedIndividual ,
                  :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Force_Majeure
+###  https://w3id.org/crimonto/crimonto#Force_Majeure
 :Force_Majeure rdf:type owl:NamedIndividual ,
                         :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Gain
+###  https://w3id.org/crimonto/crimonto#Gain
 :Gain rdf:type owl:NamedIndividual ,
                :SubKind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Honorable
+###  https://w3id.org/crimonto/crimonto#Honorable
 :Honorable rdf:type owl:NamedIndividual ,
                     :SubKind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Immunity_to_Punishment
+###  https://w3id.org/crimonto/crimonto#Immunity_to_Punishment
 :Immunity_to_Punishment rdf:type owl:NamedIndividual ,
                                  :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Impediments_to_Prosecution
+###  https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution
 :Impediments_to_Prosecution rdf:type owl:NamedIndividual ,
                                      :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Insanity
+###  https://w3id.org/crimonto/crimonto#Insanity
 :Insanity rdf:type owl:NamedIndividual ,
                    :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Instigator
+###  https://w3id.org/crimonto/crimonto#Instigator
 :Instigator rdf:type owl:NamedIndividual ,
                      :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Intentional_Offense
+###  https://w3id.org/crimonto/crimonto#Intentional_Offense
 :Intentional_Offense rdf:type owl:NamedIndividual ,
                               :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Intoxication_and_Drug_Addiction
+###  https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction
 :Intoxication_and_Drug_Addiction rdf:type owl:NamedIndividual ,
                                           :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Judge
+###  https://w3id.org/crimonto/crimonto#Judge
 :Judge rdf:type owl:NamedIndividual ,
                 :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Judge_as_Disability_Holder
+###  https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder
 :Judge_as_Disability_Holder rdf:type owl:NamedIndividual ,
                                      :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Judge_as_Power_Holder
+###  https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder
 :Judge_as_Power_Holder rdf:type owl:NamedIndividual ,
                                 :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Judicial_Act
+###  https://w3id.org/crimonto/crimonto#Judicial_Act
 :Judicial_Act rdf:type owl:NamedIndividual ,
                        :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Law_Violation
+###  https://w3id.org/crimonto/crimonto#Law_Violation
 :Law_Violation rdf:type owl:NamedIndividual ,
                         :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Law_Violator
+###  https://w3id.org/crimonto/crimonto#Law_Violator
 :Law_Violator rdf:type owl:NamedIndividual ,
                        :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Legal_Professional
+###  https://w3id.org/crimonto/crimonto#Legal_Professional
 :Legal_Professional rdf:type owl:NamedIndividual ,
                              :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Legally_Defined_Circumstance
+###  https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance
 :Legally_Defined_Circumstance rdf:type owl:NamedIndividual ,
                                        :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Liability_Relator
+###  https://w3id.org/crimonto/crimonto#Liability_Relator
 :Liability_Relator rdf:type owl:NamedIndividual ,
                             :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Loss_of_Awareness
+###  https://w3id.org/crimonto/crimonto#Loss_of_Awareness
 :Loss_of_Awareness rdf:type owl:NamedIndividual ,
                             :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Mental_Deficiency
+###  https://w3id.org/crimonto/crimonto#Mental_Deficiency
 :Mental_Deficiency rdf:type owl:NamedIndividual ,
                             :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Misdemeanor
+###  https://w3id.org/crimonto/crimonto#Misdemeanor
 :Misdemeanor rdf:type owl:NamedIndividual ,
                       :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Motive
+###  https://w3id.org/crimonto/crimonto#Motive
 :Motive rdf:type owl:NamedIndividual ,
                  :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Motive_Quality
+###  https://w3id.org/crimonto/crimonto#Motive_Quality
 :Motive_Quality rdf:type owl:NamedIndividual ,
                          :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Offender
+###  https://w3id.org/crimonto/crimonto#Offender
 :Offender rdf:type owl:NamedIndividual ,
                    :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Offender_as_Immunity_Holder
+###  https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder
 :Offender_as_Immunity_Holder rdf:type owl:NamedIndividual ,
                                       :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Offender_as_Subjection_Holder
+###  https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder
 :Offender_as_Subjection_Holder rdf:type owl:NamedIndividual ,
                                         :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Offense
+###  https://w3id.org/crimonto/crimonto#Offense
 :Offense rdf:type owl:NamedIndividual ,
                   :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Offense_Relator
+###  https://w3id.org/crimonto/crimonto#Offense_Relator
 :Offense_Relator rdf:type owl:NamedIndividual ,
                           :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Penalty
+###  https://w3id.org/crimonto/crimonto#Penalty
 :Penalty rdf:type owl:NamedIndividual ,
                   :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Penalty_Relator
+###  https://w3id.org/crimonto/crimonto#Penalty_Relator
 :Penalty_Relator rdf:type owl:NamedIndividual ,
                           :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Perpetrator
+###  https://w3id.org/crimonto/crimonto#Perpetrator
 :Perpetrator rdf:type owl:NamedIndividual ,
                       :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Political
+###  https://w3id.org/crimonto/crimonto#Political
 :Political rdf:type owl:NamedIndividual ,
                     :SubKind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_FaultBased_Liability
+###  https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability
 :PowerSubjection_to_FaultBased_Liability rdf:type owl:NamedIndividual ,
                                                   :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Liability
+###  https://w3id.org/crimonto/crimonto#PowerSubjection_to_Liability
 :PowerSubjection_to_Liability rdf:type owl:NamedIndividual ,
                                        :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty
+###  https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty
 :PowerSubjection_to_Penalty rdf:type owl:NamedIndividual ,
                                      :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#PowerSubjection_to_Penalty_Commutation
+###  https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation
 :PowerSubjection_to_Penalty_Commutation rdf:type owl:NamedIndividual ,
                                                  :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#PowerTo_Impose_FaultBased_Liability
+###  https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability
 :PowerTo_Impose_FaultBased_Liability rdf:type owl:NamedIndividual ,
                                               :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Power_to_Impose_Penalty
+###  https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty
 :Power_to_Impose_Penalty rdf:type owl:NamedIndividual ,
                                   :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Power_to_Replace_Penalty
+###  https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty
 :Power_to_Replace_Penalty rdf:type owl:NamedIndividual ,
                                    :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Responsibility_of_Unintentional_Offense
+###  https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense
 :Responsibility_of_Unintentional_Offense rdf:type owl:NamedIndividual ,
                                                   :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#State_of_Necessity
+###  https://w3id.org/crimonto/crimonto#State_of_Necessity
 :State_of_Necessity rdf:type owl:NamedIndividual ,
                              :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Subjection_to_FaultBased_Liability
+###  https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability
 :Subjection_to_FaultBased_Liability rdf:type owl:NamedIndividual ,
                                              :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Subjection_to_Penalty
+###  https://w3id.org/crimonto/crimonto#Subjection_to_Penalty
 :Subjection_to_Penalty rdf:type owl:NamedIndividual ,
                                 :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Subjection_to_Replace_Penalty
+###  https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty
 :Subjection_to_Replace_Penalty rdf:type owl:NamedIndividual ,
                                         :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOAction_Contribution
+###  https://w3id.org/crimonto/crimonto#UFOAction_Contribution
 :UFOAction_Contribution rdf:type owl:NamedIndividual ,
                                  :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOAgent_Participation
+###  https://w3id.org/crimonto/crimonto#UFOAgent_Participation
 :UFOAgent_Participation rdf:type owl:NamedIndividual ,
                                  :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLAgentive_Legal_Institution
+###  https://w3id.org/crimonto/crimonto#UFOLAgentive_Legal_Institution
 :UFOLAgentive_Legal_Institution rdf:type owl:NamedIndividual ,
                                          :SubKind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLDisabilityImmunity_Relator
+###  https://w3id.org/crimonto/crimonto#UFOLDisabilityImmunity_Relator
 :UFOLDisabilityImmunity_Relator rdf:type owl:NamedIndividual ,
                                          :Category .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLDisability_Holder
+###  https://w3id.org/crimonto/crimonto#UFOLDisability_Holder
 :UFOLDisability_Holder rdf:type owl:NamedIndividual ,
                                 :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLImmunity_Holder
+###  https://w3id.org/crimonto/crimonto#UFOLImmunity_Holder
 :UFOLImmunity_Holder rdf:type owl:NamedIndividual ,
                               :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLLegal_Agent
+###  https://w3id.org/crimonto/crimonto#UFOLLegal_Agent
 :UFOLLegal_Agent rdf:type owl:NamedIndividual ,
                           :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLLegal_Relator
+###  https://w3id.org/crimonto/crimonto#UFOLLegal_Relator
 :UFOLLegal_Relator rdf:type owl:NamedIndividual ,
                             :Category .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLPowerSubjection_Relator
+###  https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator
 :UFOLPowerSubjection_Relator rdf:type owl:NamedIndividual ,
                                       :Category .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLPower_Holder
+###  https://w3id.org/crimonto/crimonto#UFOLPower_Holder
 :UFOLPower_Holder rdf:type owl:NamedIndividual ,
                            :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOLSubjection_Holder
+###  https://w3id.org/crimonto/crimonto#UFOLSubjection_Holder
 :UFOLSubjection_Holder rdf:type owl:NamedIndividual ,
                                 :Role .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOMental_Moment
+###  https://w3id.org/crimonto/crimonto#UFOMental_Moment
 :UFOMental_Moment rdf:type owl:NamedIndividual ,
                            :Category .
 
 
-###  https://w3id.org/CriMOnto/crimonto#UFOSituation
+###  https://w3id.org/crimonto/crimonto#UFOSituation
 :UFOSituation rdf:type owl:NamedIndividual ,
                        :SituationType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Unintentional_Offense
+###  https://w3id.org/crimonto/crimonto#Unintentional_Offense
 :Unintentional_Offense rdf:type owl:NamedIndividual ,
                                 :EventType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#Unintentional_Offense_Relator
+###  https://w3id.org/crimonto/crimonto#Unintentional_Offense_Relator
 :Unintentional_Offense_Relator rdf:type owl:NamedIndividual ,
                                         :Kind .
 
 
-###  https://w3id.org/CriMOnto/crimonto#causedBy
+###  https://w3id.org/crimonto/crimonto#causedBy
 :causedBy rdf:type owl:NamedIndividual ,
                    :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#commits
+###  https://w3id.org/crimonto/crimonto#commits
 :commits rdf:type owl:NamedIndividual ,
                   :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#commits_1
+###  https://w3id.org/crimonto/crimonto#commits_1
 :commits_1 rdf:type owl:NamedIndividual ,
                     :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#committedUnder
+###  https://w3id.org/crimonto/crimonto#committedUnder
 :committedUnder rdf:type owl:NamedIndividual ,
                          :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#creates
+###  https://w3id.org/crimonto/crimonto#creates
 :creates rdf:type owl:NamedIndividual ,
                   :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#creates_1
+###  https://w3id.org/crimonto/crimonto#creates_1
 :creates_1 rdf:type owl:NamedIndividual ,
                     :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#dependsOn
+###  https://w3id.org/crimonto/crimonto#dependsOn
 :dependsOn rdf:type owl:NamedIndividual ,
                     :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#dependsOn_1
+###  https://w3id.org/crimonto/crimonto#dependsOn_1
 :dependsOn_1 rdf:type owl:NamedIndividual ,
                       :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#dependsOn_2
+###  https://w3id.org/crimonto/crimonto#dependsOn_2
 :dependsOn_2 rdf:type owl:NamedIndividual ,
                       :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#generates
+###  https://w3id.org/crimonto/crimonto#generates
 :generates rdf:type owl:NamedIndividual ,
                     :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#generates_1
+###  https://w3id.org/crimonto/crimonto#generates_1
 :generates_1 rdf:type owl:NamedIndividual ,
                       :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#grounds
+###  https://w3id.org/crimonto/crimonto#grounds
 :grounds rdf:type owl:NamedIndividual ,
                   :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#grounds_1
+###  https://w3id.org/crimonto/crimonto#grounds_1
 :grounds_1 rdf:type owl:NamedIndividual ,
                     :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#grounds_2
+###  https://w3id.org/crimonto/crimonto#grounds_2
 :grounds_2 rdf:type owl:NamedIndividual ,
                     :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#grounds_3
+###  https://w3id.org/crimonto/crimonto#grounds_3
 :grounds_3 rdf:type owl:NamedIndividual ,
                     :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#grounds_4
+###  https://w3id.org/crimonto/crimonto#grounds_4
 :grounds_4 rdf:type owl:NamedIndividual ,
                     :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#hasALegalPowerAgainst
+###  https://w3id.org/crimonto/crimonto#hasALegalPowerAgainst
 :hasALegalPowerAgainst rdf:type owl:NamedIndividual ,
                                 :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#hasAPowerToImposeAPenaltyAgainst
+###  https://w3id.org/crimonto/crimonto#hasAPowerToImposeAPenaltyAgainst
 :hasAPowerToImposeAPenaltyAgainst rdf:type owl:NamedIndividual ,
                                            :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#hasAPowerToImposeAResponsibilityOfAnUnintentionalOffenseAgainst
+###  https://w3id.org/crimonto/crimonto#hasAPowerToImposeAResponsibilityOfAnUnintentionalOffenseAgainst
 :hasAPowerToImposeAResponsibilityOfAnUnintentionalOffenseAgainst rdf:type owl:NamedIndividual ,
                                                                           :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#hasAPowerToSubstituteOrModifyAPenaltyAgainst
+###  https://w3id.org/crimonto/crimonto#hasAPowerToSubstituteOrModifyAPenaltyAgainst
 :hasAPowerToSubstituteOrModifyAPenaltyAgainst rdf:type owl:NamedIndividual ,
                                                        :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#hasNoPowerAgainst
+###  https://w3id.org/crimonto/crimonto#hasNoPowerAgainst
 :hasNoPowerAgainst rdf:type owl:NamedIndividual ,
                             :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#hasNoPowerToProsecutionAgainst
+###  https://w3id.org/crimonto/crimonto#hasNoPowerToProsecutionAgainst
 :hasNoPowerToProsecutionAgainst rdf:type owl:NamedIndividual ,
                                          :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#isAttributableTo
+###  https://w3id.org/crimonto/crimonto#isAttributableTo
 :isAttributableTo rdf:type owl:NamedIndividual ,
                            :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#isExemptedFrom
+###  https://w3id.org/crimonto/crimonto#isExemptedFrom
 :isExemptedFrom rdf:type owl:NamedIndividual ,
                          :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#isPunishableBy
+###  https://w3id.org/crimonto/crimonto#isPunishableBy
 :isPunishableBy rdf:type owl:NamedIndividual ,
                          :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#isPunishedBy
+###  https://w3id.org/crimonto/crimonto#isPunishedBy
 :isPunishedBy rdf:type owl:NamedIndividual ,
                        :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#isPunishedBy_1
+###  https://w3id.org/crimonto/crimonto#isPunishedBy_1
 :isPunishedBy_1 rdf:type owl:NamedIndividual ,
                          :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#isReplacedBy
+###  https://w3id.org/crimonto/crimonto#isReplacedBy
 :isReplacedBy rdf:type owl:NamedIndividual ,
                        :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#modifies
+###  https://w3id.org/crimonto/crimonto#modifies
 :modifies rdf:type owl:NamedIndividual ,
                    :MaterialRelationshipType .
 
 
-###  https://w3id.org/CriMOnto/crimonto#producedBy
+###  https://w3id.org/crimonto/crimonto#producedBy
 :producedBy rdf:type owl:NamedIndividual ,
                      :MaterialRelationshipType .
 
