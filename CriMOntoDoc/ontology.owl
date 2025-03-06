@@ -1,0 +1,3359 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/crimonto/crimonto#"
+     xml:base="https://w3id.org/crimonto/crimonto"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/crimonto/crimonto">
+        <owl:imports rdf:resource="http://purl.org/nemo/gufo#"/>
+        <dc:creator>Mirna El Ghosh</dc:creator>
+        <dc:description>A domain-specific ontology for modeling the procedural aspect of the legal norms in the context of the Lebanese penal code.</dc:description>
+        <dc:title>Criminal Modular Ontology (CriMOnto)</dc:title>
+        <dc:type>Domain-specific ontology</dc:type>
+        <terms:bibliographicCitation>El Ghosh, M., Naja, N.,  Abdulrab, H., and Khalil, M.
+CriMOnto: A generalized domain-specific ontology for modeling procedural norms of the Lebanese criminal law. Data &amp; Knowledge Engineering, 2025, 102419, ISSN 0169-023X. doi:10.1016/j.datak.2025.102419.</terms:bibliographicCitation>
+        <terms:date>March 2025</terms:date>
+        <terms:language>en</terms:language>
+        <rdfs:comment>This version focuses on the domain layer content.</rdfs:comment>
+        <owl:priorVersion>beta version</owl:priorVersion>
+        <owl:versionInfo>v1.0 (domain layer)</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/language -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/language"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#causedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#causedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Loss_of_Awareness"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#commits -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#commits">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Offense"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#commits_1 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#commits_1">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Offense"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#committedUnder -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#committedUnder">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Offense"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#correlates -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#correlates">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Disability_to_Punishment"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Immunity_to_Punishment"/>
+        <rdfs:label xml:lang="en">correlates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#correlates_1 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#correlates_1">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Subjection_to_Penalty"/>
+        <rdfs:label xml:lang="en">correlates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#correlates_2 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#correlates_2">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty"/>
+        <rdfs:label xml:lang="en">correlates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#correlates_3 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#correlates_3">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability"/>
+        <rdfs:label xml:lang="en">correlates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#courtHasJudge -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#courtHasJudge">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Court"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Judge"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#creates -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#creates">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Penalty_Relator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#creates_1 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#creates_1">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#dependsOn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#dependsOn">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Penalty"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#dependsOn_1 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#dependsOn_1">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Unintentional_Offense_Relator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#dependsOn_2 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#dependsOn_2">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Penalty_Relator"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Offense_Relator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#exemptionFromPunishmentHasDisabilityToPunishment -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#exemptionFromPunishmentHasDisabilityToPunishment">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Exemption_from_Punishment"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Disability_to_Punishment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#exemptionFromPunishmentHasImmunityToPunishment -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#exemptionFromPunishmentHasImmunityToPunishment">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Exemption_from_Punishment"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Immunity_to_Punishment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#externallyDependsOn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#generates -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#generates">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Penalty"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Penalty_Relator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#generates_1 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#generates_1">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Offense"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Offense_Relator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#grounds -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#grounds">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#grounds_1 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#grounds_1">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#grounds_2 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#grounds_2">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#grounds_3 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#grounds_3">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#grounds_4 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#grounds_4">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Exemption_from_Punishment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#hasALegalPowerAgainst -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#hasALegalPowerAgainst">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#UFOLPower_Holder"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#UFOLSubjection_Holder"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#hasAPowerToImposeAPenaltyAgainst -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#hasAPowerToImposeAPenaltyAgainst">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#hasAPowerToImposeAResponsibilityOfAnUnintentionalOffenseAgainst -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#hasAPowerToImposeAResponsibilityOfAnUnintentionalOffenseAgainst">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#hasAPowerToSubstituteOrModifyAPenaltyAgainst -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#hasAPowerToSubstituteOrModifyAPenaltyAgainst">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#hasNoPowerAgainst -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#hasNoPowerAgainst">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#UFOLDisability_Holder"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#UFOLImmunity_Holder"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#hasNoPowerToProsecutionAgainst -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#hasNoPowerToProsecutionAgainst">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#inheresIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#inheresIn"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#isAttributableTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#isAttributableTo">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Fault"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#isExemptedFrom -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#isExemptedFrom">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Penalty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#isPunishableBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#isPunishableBy">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Offense"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Penalty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#isPunishedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#isPunishedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Penalty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#isPunishedBy_1 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#isPunishedBy_1">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Penalty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#isReplacedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#isReplacedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Penalty"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Penalty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#mediates -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#mediates"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#modifies -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#modifies">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Penalty_Relator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#powerSubjectionToFaultBasedLiabilityHasPowerToImposeFaultBasedLiability -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#powerSubjectionToFaultBasedLiabilityHasPowerToImposeFaultBasedLiability">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#powerSubjectionToFaultBasedLiabilityHasSubjectionToFaultBasedLiability -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#powerSubjectionToFaultBasedLiabilityHasSubjectionToFaultBasedLiability">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyCommutationHasPowerToReplacePenalty -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyCommutationHasPowerToReplacePenalty">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyCommutationHasSubjectionToReplacePenalty -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyCommutationHasSubjectionToReplacePenalty">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyHasPowerToImposePenalty -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyHasPowerToImposePenalty">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyHasSubjectionToPenalty -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#powerSubjectionToPenaltyHasSubjectionToPenalty">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Subjection_to_Penalty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#producedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#producedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Force_Majeure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#promptedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/crimonto/crimonto#promptedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/crimonto/crimonto#Offense"/>
+        <rdfs:range rdf:resource="https://w3id.org/crimonto/crimonto#Motive"/>
+        <rdfs:label xml:lang="en">prompted by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Absence_of_Responsibility -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Absence_of_Responsibility">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Accessory -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Accessory">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Offender"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Accomplice -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Accomplice">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Offender"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Aggravating_Circumstances -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Aggravating_Circumstances">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Base -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Base">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Motive"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Category -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Category"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Compulsion_and_Moral_Duress -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Compulsion_and_Moral_Duress">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Force_Majeure"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/crimonto/crimonto#State_of_Necessity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Contravention -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Contravention">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Court -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Court">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLAgentive_Legal_Institution"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Criminal_Act -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Criminal_Act">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOAction_Contribution"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/crimonto/crimonto#Judicial_Act"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Criminal_Conviction -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Criminal_Conviction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Judicial_Act"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Criminal_Court -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Criminal_Court">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Court"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Disability_to_Punishment -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Disability_to_Punishment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#IntrinsicMode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Dishonorable -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Dishonorable">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Motive_Quality"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/crimonto/crimonto#Honorable"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Error -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Error">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Error_of_Fact -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Error_of_Fact">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Error"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/crimonto/crimonto#Error_of_Law"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Error_of_Law -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Error_of_Law">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Error"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Event -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Event"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#EventType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#EventType"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Exemption_from_Punishment -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Exemption_from_Punishment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLDisabilityImmunity_Relator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Extenuating_Circumstances -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Extenuating_Circumstances">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Fault -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Fault">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOMental_Moment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Felony -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Felony">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Force_Majeure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Force_Majeure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#FunctionalComplex -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#FunctionalComplex"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Gain -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Gain">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Motive"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Honorable -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Honorable">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Motive_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Immunity_to_Punishment -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Immunity_to_Punishment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#IntrinsicMode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Insanity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Insanity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Absence_of_Responsibility"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Instigator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Instigator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Offender"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Intentional_Offense -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Intentional_Offense">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Criminal_Act"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Offense"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/crimonto/crimonto#Unintentional_Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Absence_of_Responsibility"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#IntrinsicMode -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#IntrinsicMode"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Judge -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Judge">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Legal_Professional"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Judge"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLDisability_Holder"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/crimonto/crimonto#Exemption_from_Punishment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Immunity_to_Punishment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Disability_to_Punishment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Judge"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLPower_Holder"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Subjection_to_Penalty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Judicial_Act -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Judicial_Act">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOAction_Contribution"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Kind -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Kind"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Law_Violation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Law_Violation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOAgent_Participation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Law_Violator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Law_Violator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Legal_Professional -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Legal_Professional">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Liability_Relator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Liability_Relator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLLegal_Relator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Loss_of_Awareness -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Loss_of_Awareness">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOMental_Moment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#MaterialRelationshipType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Mental_Deficiency -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Mental_Deficiency">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Insanity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Misdemeanor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Misdemeanor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Motive -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Motive">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOMental_Moment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Motive_Quality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Motive_Quality -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Motive_Quality">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Quality"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Motive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Offender -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Offender">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Law_Violator"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Offender"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLImmunity_Holder"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/crimonto/crimonto#Exemption_from_Punishment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Loss_of_Awareness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Disability_to_Punishment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Immunity_to_Punishment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Offender"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLSubjection_Holder"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/crimonto/crimonto#Offense_Relator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/crimonto/crimonto#Penalty_Relator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Fault"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Motive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Subjection_to_Penalty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Offense -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Offense">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Law_Violation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Offense_Relator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Offense_Relator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLLegal_Relator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Penalty -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Penalty">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Criminal_Conviction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Penalty_Relator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Penalty_Relator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLLegal_Relator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Perpetrator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Perpetrator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Offender"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Political -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Political">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Motive"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#PowerSubjection_to_Liability -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Liability">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#IntrinsicMode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#IntrinsicMode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#IntrinsicMode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Quality -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Quality"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Relator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Relator"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLLegal_Relator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#mediates"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Role -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Role"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Situation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Situation"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#SituationType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#SituationType"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#State_of_Necessity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#State_of_Necessity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Force_Majeure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#SubKind -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#SubKind"/>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#IntrinsicMode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Subjection_to_Penalty -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Subjection_to_Penalty">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#IntrinsicMode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#IntrinsicMode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#externallyDependsOn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/crimonto/crimonto#inheresIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOAction_Contribution -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#UFOAction_Contribution">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOAgent_Participation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOAgent_Participation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#UFOAgent_Participation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLAgentive_Legal_Institution -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#UFOLAgentive_Legal_Institution">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLDisabilityImmunity_Relator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#UFOLDisabilityImmunity_Relator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Relator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLDisability_Holder -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#UFOLDisability_Holder">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLImmunity_Holder -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#UFOLImmunity_Holder">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLLegal_Agent -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#UFOLLegal_Agent">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#FunctionalComplex"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLLegal_Relator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#UFOLLegal_Relator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Relator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Relator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLPower_Holder -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#UFOLPower_Holder">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLSubjection_Holder -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#UFOLSubjection_Holder">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#UFOLLegal_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOMental_Moment -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#UFOMental_Moment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#IntrinsicMode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOSituation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#UFOSituation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Unintentional_Offense -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Unintentional_Offense">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Unintentional_Offense_Relator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/crimonto/crimonto#Unintentional_Offense_Relator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/crimonto/crimonto#Relator"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Absence_of_Responsibility -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Absence_of_Responsibility">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Accessory -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Accessory">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Accomplice -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Accomplice">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Aggravating_Circumstances -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Aggravating_Circumstances">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Base -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Base">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SubKind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Compulsion_and_Moral_Duress -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Compulsion_and_Moral_Duress">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Contravention -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Contravention">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Court -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Court">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SubKind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Criminal_Act -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Criminal_Act">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Criminal_Conviction -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Criminal_Conviction">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Criminal_Court -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Criminal_Court">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SubKind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Disability_to_Punishment -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Disability_to_Punishment">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Dishonorable -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Dishonorable">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SubKind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Error -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Error">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Error_of_Fact -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Error_of_Fact">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Error_of_Law -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Error_of_Law">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Exemption_from_Punishment -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Exemption_from_Punishment">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Extenuating_Circumstances -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Extenuating_Circumstances">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Fault -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Fault">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Felony -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Felony">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Force_Majeure -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Force_Majeure">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Gain -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Gain">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SubKind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Honorable -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Honorable">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SubKind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Immunity_to_Punishment -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Immunity_to_Punishment">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Insanity -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Insanity">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Instigator -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Instigator">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Intentional_Offense -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Intentional_Offense">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Judge -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Judge">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Judicial_Act -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Judicial_Act">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Law_Violation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Law_Violation">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Law_Violator -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Law_Violator">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Legal_Professional -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Legal_Professional">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Liability_Relator -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Liability_Relator">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Loss_of_Awareness -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Loss_of_Awareness">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Mental_Deficiency -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Mental_Deficiency">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Misdemeanor -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Misdemeanor">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Motive -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Motive">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Motive_Quality -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Motive_Quality">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Offender -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Offender">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Offense -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Offense">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Offense_Relator -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Offense_Relator">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Penalty -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Penalty">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Penalty_Relator -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Penalty_Relator">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Perpetrator -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Perpetrator">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Political -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Political">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SubKind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#PowerSubjection_to_Liability -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Liability">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#State_of_Necessity -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#State_of_Necessity">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Subjection_to_Penalty -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Subjection_to_Penalty">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOAction_Contribution -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#UFOAction_Contribution">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOAgent_Participation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#UFOAgent_Participation">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLAgentive_Legal_Institution -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#UFOLAgentive_Legal_Institution">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SubKind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLDisabilityImmunity_Relator -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#UFOLDisabilityImmunity_Relator">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLDisability_Holder -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#UFOLDisability_Holder">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLImmunity_Holder -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#UFOLImmunity_Holder">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLLegal_Agent -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#UFOLLegal_Agent">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLLegal_Relator -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#UFOLLegal_Relator">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLPower_Holder -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#UFOLPower_Holder">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOLSubjection_Holder -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#UFOLSubjection_Holder">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOMental_Moment -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#UFOMental_Moment">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#UFOSituation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#UFOSituation">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#SituationType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Unintentional_Offense -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Unintentional_Offense">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#Unintentional_Offense_Relator -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#Unintentional_Offense_Relator">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#causedBy -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#causedBy">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#commits -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#commits">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#commits_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#commits_1">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#committedUnder -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#committedUnder">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#creates -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#creates">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#creates_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#creates_1">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#dependsOn -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#dependsOn">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#dependsOn_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#dependsOn_1">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#dependsOn_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#dependsOn_2">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#generates -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#generates">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#generates_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#generates_1">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#grounds -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#grounds">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#grounds_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#grounds_1">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#grounds_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#grounds_2">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#grounds_3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#grounds_3">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#grounds_4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#grounds_4">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#hasALegalPowerAgainst -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#hasALegalPowerAgainst">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#hasAPowerToImposeAPenaltyAgainst -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#hasAPowerToImposeAPenaltyAgainst">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#hasAPowerToImposeAResponsibilityOfAnUnintentionalOffenseAgainst -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#hasAPowerToImposeAResponsibilityOfAnUnintentionalOffenseAgainst">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#hasAPowerToSubstituteOrModifyAPenaltyAgainst -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#hasAPowerToSubstituteOrModifyAPenaltyAgainst">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#hasNoPowerAgainst -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#hasNoPowerAgainst">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#hasNoPowerToProsecutionAgainst -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#hasNoPowerToProsecutionAgainst">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#isAttributableTo -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#isAttributableTo">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#isExemptedFrom -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#isExemptedFrom">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#isPunishableBy -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#isPunishableBy">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#isPunishedBy -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#isPunishedBy">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#isPunishedBy_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#isPunishedBy_1">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#isReplacedBy -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#isReplacedBy">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#modifies -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#modifies">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/crimonto/crimonto#producedBy -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/crimonto/crimonto#producedBy">
+        <rdf:type rdf:resource="https://w3id.org/crimonto/crimonto#MaterialRelationshipType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Absence_of_Responsibility">
+        <rdfs:label xml:lang="en">Absence_of_Responsibility</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Accessory">
+        <rdfs:label xml:lang="en">Accessory</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Accomplice">
+        <rdfs:label xml:lang="en">Accomplice</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Aggravating_Circumstances">
+        <rdfs:label xml:lang="en">Aggravating_Circumstances</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Base">
+        <rdfs:label xml:lang="en">Base</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Compulsion_and_Moral_Duress">
+        <rdfs:label xml:lang="en">Compulsion_and_Moral_Duress</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Contravention">
+        <rdfs:label xml:lang="en">Contravention</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Court">
+        <rdfs:label xml:lang="en">Court</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Criminal_Act">
+        <rdfs:label xml:lang="en">Criminal_Act</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Criminal_Conviction">
+        <rdfs:label xml:lang="en">Criminal_Conviction</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Criminal_Court">
+        <rdfs:label xml:lang="en">Criminal_Court</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Criminal_Law_Promulgation">
+        <rdfs:label xml:lang="en">Criminal_Law_Promulgation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Disability_to_Punishment">
+        <rdfs:label xml:lang="en">Disability_to_Punishment</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Dishonorable">
+        <rdfs:label xml:lang="en">Dishonorable</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Error">
+        <rdfs:label xml:lang="en">Error</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Error_of_Fact">
+        <rdfs:label xml:lang="en">Error_of_Fact</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Error_of_Law">
+        <rdfs:label xml:lang="en">Error_of_Law</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Exemption_from_Punishment">
+        <rdfs:label xml:lang="en">Exemption_from_Punishment</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Extenuating_Circumstances">
+        <rdfs:label xml:lang="en">Extenuating_Circumstances</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Fault">
+        <rdfs:label xml:lang="en">Fault</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Felony">
+        <rdfs:label xml:lang="en">Felony</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Force_Majeure">
+        <rdfs:label xml:lang="en">Force_Majeure</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Gain">
+        <rdfs:label xml:lang="en">Gain</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Honorable">
+        <rdfs:label xml:lang="en">Honorable</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Immunity_to_Punishment">
+        <rdfs:label xml:lang="en">Immunity_to_Punishment</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution">
+        <rdfs:label xml:lang="en">Impediments_to_Prosecution</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Insanity">
+        <rdfs:label xml:lang="en">Insanity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Instigator">
+        <rdfs:label xml:lang="en">Instigator</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Intentional_Offense">
+        <rdfs:label xml:lang="en">Intentional_Offense</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Intoxication_and_Drug_Addiction">
+        <rdfs:label xml:lang="en">Intoxication_and_Drug_Addiction</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Judge">
+        <rdfs:label xml:lang="en">Judge</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Judge_as_Disability_Holder">
+        <rdfs:label xml:lang="en">Judge_as_Disability_Holder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Judge_as_Power_Holder">
+        <rdfs:label xml:lang="en">Judge_as_Power_Holder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Judicial_Act">
+        <rdfs:label xml:lang="en">Judicial_Act</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Law_Violation">
+        <rdfs:label xml:lang="en">Law_Violation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Law_Violator">
+        <rdfs:label xml:lang="en">Law_Violator</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Legal_Professional">
+        <rdfs:label xml:lang="en">Legal_Professional</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Legally_Defined_Circumstance">
+        <rdfs:label xml:lang="en">Legally_Defined_Circumstance</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Liability_Relator">
+        <rdfs:label xml:lang="en">Liability_Relator</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Loss_of_Awareness">
+        <rdfs:label xml:lang="en">Loss_of_Awareness</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Mental_Deficiency">
+        <rdfs:label xml:lang="en">Mental_Deficiency</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Misdemeanor">
+        <rdfs:label xml:lang="en">Misdemeanor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Motive">
+        <rdfs:label xml:lang="en">Motive</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Motive_Quality">
+        <rdfs:label xml:lang="en">Motive_Quality</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Offender">
+        <rdfs:label xml:lang="en">Offender</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Offender_as_Immunity_Holder">
+        <rdfs:label xml:lang="en">Offender_as_Immunity_Holder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Offender_as_Subjection_Holder">
+        <rdfs:label xml:lang="en">Offender_as_Subjection_Holder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Offense">
+        <rdfs:label xml:lang="en">Offense</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Offense_Relator">
+        <rdfs:label xml:lang="en">Offense_Relator</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Penalty">
+        <rdfs:label xml:lang="en">Penalty</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Penalty_Relator">
+        <rdfs:label xml:lang="en">Penalty_Relator</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Perpetrator">
+        <rdfs:label xml:lang="en">Perpetrator</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Political">
+        <rdfs:label xml:lang="en">Political</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability">
+        <rdfs:label xml:lang="en">Power-Subjection_to_Fault-Based_Liability</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Liability">
+        <rdfs:label xml:lang="en">Power-Subjection_to_Liability</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty">
+        <rdfs:label xml:lang="en">Power-Subjection_to_Penalty</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation">
+        <rdfs:label xml:lang="en">Power-Subjection_to_Penalty_Commutation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#PowerTo_Impose_FaultBased_Liability">
+        <rdfs:label xml:lang="en">Power-to_Impose_Fault-Based_Liability</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Power_to_Impose_Penalty">
+        <rdfs:label xml:lang="en">Power_to_Impose_Penalty</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Power_to_Replace_Penalty">
+        <rdfs:label xml:lang="en">Power_to_Replace_Penalty</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Responsibility_of_Unintentional_Offense">
+        <rdfs:label xml:lang="en">Responsibility_of_Unintentional_Offense</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#State_of_Necessity">
+        <rdfs:label xml:lang="en">State_of_Necessity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Subjection_to_FaultBased_Liability">
+        <rdfs:label xml:lang="en">Subjection_to_Fault-Based_Liability</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Subjection_to_Penalty">
+        <rdfs:label xml:lang="en">Subjection_to_Penalty</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Subjection_to_Replace_Penalty">
+        <rdfs:label xml:lang="en">Subjection_to_Replace_Penalty</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#UFOAction_Contribution">
+        <rdfs:label xml:lang="en">UFO::Action_Contribution</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#UFOAgent_Participation">
+        <rdfs:label xml:lang="en">UFO::Agent_Participation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#UFOLAgentive_Legal_Institution">
+        <rdfs:label xml:lang="en">UFO-L::Agentive_Legal_Institution</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#UFOLDisabilityImmunity_Relator">
+        <rdfs:label xml:lang="en">UFO-L::Disability-Immunity_Relator</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#UFOLDisability_Holder">
+        <rdfs:label xml:lang="en">UFO-L::Disability_Holder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#UFOLImmunity_Holder">
+        <rdfs:label xml:lang="en">UFO-L::Immunity_Holder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#UFOLLegal_Agent">
+        <rdfs:label xml:lang="en">UFO-L::Legal_Agent</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#UFOLLegal_Relator">
+        <rdfs:label xml:lang="en">UFO-L::Legal_Relator</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#UFOLPowerSubjection_Relator">
+        <rdfs:label xml:lang="en">UFO-L::Power-Subjection_Relator</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#UFOLPower_Holder">
+        <rdfs:label xml:lang="en">UFO-L::Power_Holder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#UFOLSubjection_Holder">
+        <rdfs:label xml:lang="en">UFO-L::Subjection_Holder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#UFOMental_Moment">
+        <rdfs:label xml:lang="en">UFO::Mental_Moment</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#UFOSituation">
+        <rdfs:label xml:lang="en">UFO::Situation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Unintentional_Offense">
+        <rdfs:label xml:lang="en">Unintentional_Offense</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Unintentional_Offense_Relator">
+        <rdfs:label xml:lang="en">Unintentional_Offense_Relator</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#causedBy">
+        <rdfs:label xml:lang="en">caused by</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#commits">
+        <rdfs:label xml:lang="en">commits</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#commits_1">
+        <rdfs:label xml:lang="en">commits</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#committedUnder">
+        <rdfs:label xml:lang="en">committed under</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#creates">
+        <rdfs:label xml:lang="en">creates</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#creates_1">
+        <rdfs:label xml:lang="en">creates</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#dependsOn">
+        <rdfs:label xml:lang="en">depends on</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#dependsOn_1">
+        <rdfs:label xml:lang="en">depends on</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#dependsOn_2">
+        <rdfs:label xml:lang="en">depends on</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#generates">
+        <rdfs:label xml:lang="en">generates</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#generates_1">
+        <rdfs:label xml:lang="en">generates</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#grounds">
+        <rdfs:label xml:lang="en">grounds</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#grounds_1">
+        <rdfs:label xml:lang="en">grounds</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#grounds_2">
+        <rdfs:label xml:lang="en">grounds</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#grounds_3">
+        <rdfs:label xml:lang="en">grounds</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#grounds_4">
+        <rdfs:label xml:lang="en">grounds</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#hasALegalPowerAgainst">
+        <rdfs:label xml:lang="en">has a legal power against</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#hasAPowerToImposeAPenaltyAgainst">
+        <rdfs:label xml:lang="en">has a power to impose a penalty against</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#hasAPowerToImposeAResponsibilityOfAnUnintentionalOffenseAgainst">
+        <rdfs:label xml:lang="en">has a power to impose a responsibility of an unintentional offense against</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#hasAPowerToSubstituteOrModifyAPenaltyAgainst">
+        <rdfs:label xml:lang="en">has a power to substitute or modify a penalty against</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#hasNoPowerAgainst">
+        <rdfs:label xml:lang="en">has no power against</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#hasNoPowerToProsecutionAgainst">
+        <rdfs:label xml:lang="en">has no power to prosecution against</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#isAttributableTo">
+        <rdfs:label xml:lang="en">is attributable to</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#isExemptedFrom">
+        <rdfs:label xml:lang="en">is exempted from</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#isPunishableBy">
+        <rdfs:label xml:lang="en">is punishable by</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#isPunishedBy">
+        <rdfs:label xml:lang="en">is punished by</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#isPunishedBy_1">
+        <rdfs:label xml:lang="en">is punished by</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#isReplacedBy">
+        <rdfs:label xml:lang="en">is replaced by</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#modifies">
+        <rdfs:label xml:lang="en">modifies</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#producedBy">
+        <rdfs:label xml:lang="en">produced by</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Absence_of_Responsibility"/>
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Error"/>
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Force_Majeure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Aggravating_Circumstances"/>
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Extenuating_Circumstances"/>
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Impediments_to_Prosecution"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Base"/>
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Gain"/>
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Political"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Contravention"/>
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Felony"/>
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Misdemeanor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Fault"/>
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Loss_of_Awareness"/>
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#Motive"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_FaultBased_Liability"/>
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Liability"/>
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty"/>
+            <rdf:Description rdf:about="https://w3id.org/crimonto/crimonto#PowerSubjection_to_Penalty_Commutation"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
