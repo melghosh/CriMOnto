@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/CriMOnto#"
-     xml:base="https://w3id.org/CriMOnto"
+<rdf:RDF xmlns="https://w3id.org/CriMOnto/crimonto#"
+     xml:base="https://w3id.org/CriMOnto/crimonto"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://w3id.org/CriMOnto">
+    <owl:Ontology rdf:about="https://w3id.org/CriMOnto/crimonto">
         <owl:imports rdf:resource="http://purl.org/nemo/gufo#"/>
         <dc:creator>Mirna El Ghosh</dc:creator>
         <dc:description>A domain-specific ontology for modeling the procedural aspect of the legal norms in the context of the Lebanese penal code.</dc:description>

@@ -1,15 +1,15 @@
-<https://w3id.org/CriMOnto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/CriMOnto> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/nemo/gufo#> .
-<https://w3id.org/CriMOnto> <http://purl.org/dc/elements/1.1/creator> "Mirna El Ghosh" .
-<https://w3id.org/CriMOnto> <http://purl.org/dc/elements/1.1/description> "A domain-specific ontology for modeling the procedural aspect of the legal norms in the context of the Lebanese penal code." .
-<https://w3id.org/CriMOnto> <http://purl.org/dc/elements/1.1/title> "Criminal Modular Ontology (CriMOnto)" .
-<https://w3id.org/CriMOnto> <http://purl.org/dc/elements/1.1/type> "Domain-specific ontology" .
-<https://w3id.org/CriMOnto> <http://purl.org/dc/terms/bibliographicCitation> "El Ghosh, M., Naja, N.,  Abdulrab, H., and Khalil, M.\nCriMOnto: A generalized domain-specific ontology for modeling procedural norms of the Lebanese criminal law. Data & Knowledge Engineering, 2025, 102419, ISSN 0169-023X. doi:10.1016/j.datak.2025.102419." .
-<https://w3id.org/CriMOnto> <http://purl.org/dc/terms/date> "March 2025" .
-<https://w3id.org/CriMOnto> <http://purl.org/dc/terms/language> "en" .
-<https://w3id.org/CriMOnto> <http://www.w3.org/2000/01/rdf-schema#comment> "This version focuses on the domain layer content." .
-<https://w3id.org/CriMOnto> <http://www.w3.org/2002/07/owl#priorVersion> "beta version" .
-<https://w3id.org/CriMOnto> <http://www.w3.org/2002/07/owl#versionInfo> "v1.0 (domain layer)" .
+<https://w3id.org/CriMOnto/crimonto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/CriMOnto/crimonto> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/nemo/gufo#> .
+<https://w3id.org/CriMOnto/crimonto> <http://purl.org/dc/elements/1.1/creator> "Mirna El Ghosh" .
+<https://w3id.org/CriMOnto/crimonto> <http://purl.org/dc/elements/1.1/description> "A domain-specific ontology for modeling the procedural aspect of the legal norms in the context of the Lebanese penal code." .
+<https://w3id.org/CriMOnto/crimonto> <http://purl.org/dc/elements/1.1/title> "Criminal Modular Ontology (CriMOnto)" .
+<https://w3id.org/CriMOnto/crimonto> <http://purl.org/dc/elements/1.1/type> "Domain-specific ontology" .
+<https://w3id.org/CriMOnto/crimonto> <http://purl.org/dc/terms/bibliographicCitation> "El Ghosh, M., Naja, N.,  Abdulrab, H., and Khalil, M.\nCriMOnto: A generalized domain-specific ontology for modeling procedural norms of the Lebanese criminal law. Data & Knowledge Engineering, 2025, 102419, ISSN 0169-023X. doi:10.1016/j.datak.2025.102419." .
+<https://w3id.org/CriMOnto/crimonto> <http://purl.org/dc/terms/date> "March 2025" .
+<https://w3id.org/CriMOnto/crimonto> <http://purl.org/dc/terms/language> "en" .
+<https://w3id.org/CriMOnto/crimonto> <http://www.w3.org/2000/01/rdf-schema#comment> "This version focuses on the domain layer content." .
+<https://w3id.org/CriMOnto/crimonto> <http://www.w3.org/2002/07/owl#priorVersion> "beta version" .
+<https://w3id.org/CriMOnto/crimonto> <http://www.w3.org/2002/07/owl#versionInfo> "v1.0 (domain layer)" .
 # 
 # 
 # #################################################################
